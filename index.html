@@ -1,7 +1,151 @@
 <!DOCTYPE html>
-<html>
+<html style="height:100%;">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Aidan Buffum</title>
+    <style type="text/css">
+
+        html, body {
+            margin:0;
+            padding:0;
+            height:100%;
+            font-family:Sans-serif;
+            line-height:1.5em;
+            background:#FFFFFF;
+        }
+        #container {
+            min-height:100%;
+            position:relative;
+        }
+        #header {
+            padding:0px;
+        }
+        #body {
+            padding:0 0px 70px 0px; /*top, left&right, bottom*/
+        }
+        #footer {
+            position:absolute;
+            bottom:0;
+            left:0;
+            width:100%;
+            height:70px;   /* Height of the footer */
+        }
+
+        #nav_ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        #nav_ul li{
+            float: right;
+            border-left: 1px solid #FFFFFF;
+        }
+        #nav_ul li:last-child{
+            border-left: 0;
+        }
+        #nav_ul li a {
+            display: block;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        #nav_ul li a:hover {
+            background-color: #38C098;
+        }
+
+        /*Classes*/
+
+        .icons {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+        }
+
+    </style>
+
+    <script type="text/javascript">
+        /* =============================
+         This script generates sample text for the body content.
+         You can remove this script and any reference to it.
+         ============================= */
+        var bodyText=["Remember, you are unique, just like everybody else.", "Too much agreement kills a good chat.", "Get your facts first, then you can distort them as you please.", "I intend to live forever. So far, so good.", "</p><p>A clear conscience is usually a sign of a bad memory.", "What's another word for Thesaurus?", "<h3>Heading</h3><p>Experience is something you don't get until just after you need it."]
+        function generateText(sentenceCount){
+            for (var i=0; i<sentenceCount; i++)
+                document.write(bodyText[Math.floor(Math.random()*7)]+" ")
+        }
+    </script>
+
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+<!--Background Grey Block -->
+<div style="position:fixed; background:#DCE2E9; left:10%; right:10%; height:100%;"></div>
+
+<!-- Site Body -->
+<div id="container" style="height:auto;">
+    <!-- Header -->
+    <div id="header">
+        <!-- Black Area -->
+        <div style="left:0; width:100%; height:40px; background-color:#42484F;">
+            <!-- Content Area -->
+            <div style="position:absolute; left:10%; right:10%; height:40px; background-color:#393E44;">
+
+            </div>
+        </div>
+        <!-- Green Area -->
+        <div style="left:0; width:100%; height:70px; background-color:#38C098;">
+            <!-- Content Area -->
+            <div style="position:absolute; left:10%; right:10%; height:70px; background-color:#288F70;">
+                <ul id="nav_ul" style="position:absolute; top:10px; bottom:10px;right:10px;">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="home.html">Home</a></li>
+                    <!-- Insert { style="color:#393E44;" } on the active page -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Body -->
+        <div id="body" style="padding-left:10%; padding-right:10%;">
+            <!-- Content Area -->
+            <div style="margin: 15px;">
+
+            </div>
+    </div>
+    <!-- Footer -->
+    <div id="footer">
+        <!-- Social Media -->
+        <div style="width:100%; height:40px; background-color:#38C098;">
+            <!-- Content Area -->
+            <div style="position:absolute; left:10%; right:10%; height:40px; background-color:#288F70;">
+                <div style="position:absolute; float:left; height:20px; left:50%; top:10px; margin-left:-30px;">
+                    <!-- Icons -->
+                    <a href="https://www.twitter.com/AidanBuffum" class= "icons">
+                        <img src="assets/images/icons/logo_twitter.png" alt="Twitter" style="width: 20px;height:20px;">
+                    </a>
+                    <a href="https://aidanbuffum.itch.io/" class= "icons">
+                        <img src="assets/images/icons/logo_itchio.png" alt="itch.io" style="width: 20px;height:20px;">
+                    </a>
+                    <a href="https://www.linkedin.com/in/aidan-buffum-a05270143/" class= "icons">
+                        <img src="assets/images/icons/logo_linkedin.png" alt="itch.io" style="width: 20px;height:20px;">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright -->
+        <div style="left:0; width:100%; height:30px; background-color:#42484F;">
+            <!-- Content Area -->
+            <div style="position:absolute; left:10%; right:10%; height:30px; background-color:#393E44;">
+                <p> <div style="margin-top:-10px; text-align:center; color:white; font-size:75%;">Copyright &copy 2017 Aidan Buffum.</div></p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
 </body>
+
 </html>
