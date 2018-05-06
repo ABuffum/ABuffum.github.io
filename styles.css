@@ -1,0 +1,240 @@
+/* styles.css */
+/*
+light green		38C098
+dark green		288F70
+white			FFFFFF
+light grey		DCE2E9
+medium grey		42484F
+dark grey		393E44
+light purple	9925A5
+dark purple		6E1B77
+
+ */
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: Sans-serif;
+	line-height: 1.5em;
+	background: #FFFFFF;
+}
+/*Site Body*/
+#container {
+	min-height: 100%;
+	position: relative;
+	min-width: 800px;
+	width: auto !important;
+}
+#header {
+	padding:0px;
+	z-index: 1;
+	position:absolute;
+	top:0px;
+	height:40px;
+}
+#body {
+	height:100%;
+	padding-bottom: 90px;
+}
+#footer{
+	position:fixed;
+	bottom:0;
+	width:100%;
+	height:70px;
+}
+/*Gallery*/
+.column {
+	float: left;
+	padding:0.5%;
+	width: 19%;
+}
+.modal {
+	left: 0;
+	top: 0;
+	height: 50%;
+	width:100%;
+	position:relative;
+}
+.modal-content {
+	padding: 5px;
+	max-width: 1080px;
+}
+.mySlides{
+	border-radius: 15px;
+}
+.cursor {
+	cursor: pointer
+}
+.prev,
+.next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -50px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	-webkit-user-select: none;
+}
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.caption-container {
+	text-align: center;
+	color: white;
+}
+.demo {
+	opacity: 0.6;
+}
+.demo:hover {
+	opacity: 1;
+}
+/*Classes*/
+.splitBody{
+	float: left;
+	padding: 0.5%;
+	width: 49%;
+}
+.linkImage{
+	float:left;
+	width:48%;
+	opacity:1;
+}
+.linkImage:hover{
+	opacity:0.7;
+}
+/*Tags*/
+.skillTag,.gameTag,.otherTag{
+	float:left;
+	margin:3px;
+	padding: 5px 10px 5px 10px;
+	border-radius:15px;
+}
+.skillTag{
+	background-color:#38C098;
+	color:white;
+}
+.skillTag:hover{
+	background-color:#288F70;
+}
+.gameTag{
+	background-color:#9925A5;
+	color:white;
+}
+.gameTag:hover{
+	background-color:#6E1B77;
+}
+.otherTag{
+	background-color:#42484F;
+	color:white;
+}
+.otherTag:hover{
+	background-color:#393E44;
+}
+
+
+
+/*Game Frames*/
+.gameFrame {
+	position: fixed;
+	top: 10px;
+	left:10px;
+	right:10px;
+	bottom:40px;
+	z-index:1;
+	display:none;
+}
+.innerGameFrame{
+	position: absolute;
+	top:30px;
+	width:100%;
+	left:0px;
+	right:5px;
+	height:100%;
+	bottom:10px;
+	background-color: #393E44;
+	border-radius:15px;
+}
+.gameFrameX{
+	position: absolute;
+	top:0px;
+	right:15px;
+	height:30px;
+	width:90px;
+}
+/*Navigation Bar*/
+.NAV {
+	overflow: hidden;
+	font-family: Arial;
+}
+.NAV a {
+	display: inline-block;
+	font-size: 32px;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	background-color: #288F70;
+	background-color: #288F70;
+}
+.NAV a:hover {
+	background-color: #38C098;
+	cursor: pointer;
+}
+/*Dropdown*/
+.dropdown {
+	display: block;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	background-color: #288F70;
+}
+.dropbtn:hover .dropdown-content {
+	display: block;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	z-index: 2;
+}
+.dropdown-content a {
+	font-size: 32px;
+	display: block;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	background-color: #38C098;
+	border: 1px solid #FFFFFF;
+}
+.dropdown-content a:hover {
+	background-color: #288F70;
+	cursor: pointer;
+}
+.show {
+	display: block;
+}
+/*Name*/
+.NAME {
+	color: #FFFFFF;
+	font-size: 60px;
+	padding: 14px 16px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.SUBNAME {
+	color: #FFFFFF;
+	font-size: 20px;
+	padding: 14px 16px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
