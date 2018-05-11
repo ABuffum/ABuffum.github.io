@@ -8,7 +8,8 @@ medium grey		42484F
 dark grey		393E44
 light purple	9925A5
 dark purple		6E1B77
-
+light blue		0094FF
+dark blue		004A7F
  */
 html, body {
 	margin: 0;
@@ -31,6 +32,7 @@ html, body {
 	position:absolute;
 	top:0px;
 	height:40px;
+	width:100%;
 }
 #body {
 	height:100%;
@@ -42,64 +44,11 @@ html, body {
 	width:100%;
 	height:70px;
 }
-/*Gallery*/
-.column {
-	float: left;
-	padding:0.5%;
-	width: 19%;
-}
-.modal {
-	left: 0;
-	top: 0;
-	height: 50%;
-	width:100%;
-	position:relative;
-}
-.modal-content {
-	padding: 5px;
-	max-width: 1080px;
-}
-.mySlides{
-	border-radius: 15px;
-}
-.cursor {
-	cursor: pointer
-}
-.prev,
-.next {
-	cursor: pointer;
-	position: absolute;
-	top: 50%;
-	width: auto;
-	padding: 16px;
-	margin-top: -50px;
-	color: white;
-	font-weight: bold;
-	font-size: 20px;
-	transition: 0.6s ease;
-	border-radius: 0 3px 3px 0;
-	user-select: none;
-	-webkit-user-select: none;
-}
-.next {
-	right: 0;
-	border-radius: 3px 0 0 3px;
-}
-.prev:hover,
-.next:hover {
-	background-color: rgba(0, 0, 0, 0.8);
-}
-.caption-container {
-	text-align: center;
-	color: white;
-}
-.demo {
-	opacity: 0.6;
-}
-.demo:hover {
-	opacity: 1;
-}
+
 /*Classes*/
+.greyContainer{
+	width:99%;
+}
 .splitBody{
 	float: left;
 	padding: 0.5%;
@@ -112,6 +61,19 @@ html, body {
 }
 .linkImage:hover{
 	opacity:0.7;
+	cursor:pointer;
+}
+.skillImage{
+	float:left;
+	width:5%;
+	padding:2.5%;
+}
+.hoverLink{
+	text-decoration:none;
+	color:white;
+}
+.skillImage:hover, .hoverLink:hover{
+	opacity:0.7;
 }
 /*Tags*/
 .skillTag,.gameTag,.otherTag{
@@ -119,6 +81,9 @@ html, body {
 	margin:3px;
 	padding: 5px 10px 5px 10px;
 	border-radius:15px;
+}
+.skillTag:hover,.gameTag:hover,.otherTag:hover{
+	cursor:pointer;
 }
 .skillTag{
 	background-color:#38C098;
@@ -135,42 +100,11 @@ html, body {
 	background-color:#6E1B77;
 }
 .otherTag{
-	background-color:#42484F;
+	background-color:#0094FF;
 	color:white;
 }
 .otherTag:hover{
-	background-color:#393E44;
-}
-
-
-
-/*Game Frames*/
-.gameFrame {
-	position: fixed;
-	top: 10px;
-	left:10px;
-	right:10px;
-	bottom:40px;
-	z-index:1;
-	display:none;
-}
-.innerGameFrame{
-	position: absolute;
-	top:30px;
-	width:100%;
-	left:0px;
-	right:5px;
-	height:100%;
-	bottom:10px;
-	background-color: #393E44;
-	border-radius:15px;
-}
-.gameFrameX{
-	position: absolute;
-	top:0px;
-	right:15px;
-	height:30px;
-	width:90px;
+	background-color:#004A7F;
 }
 /*Navigation Bar*/
 .NAV {
