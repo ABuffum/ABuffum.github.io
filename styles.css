@@ -76,20 +76,23 @@ html, body {
 	opacity:0.7;
 }
 /*Tags*/
-.skillTag,.gameTag,.otherTag{
+.skillTag,.gameTag,.otherTag,.perlenspielTag{
 	float:left;
 	margin:3px;
 	padding: 5px 10px 5px 10px;
 	border-radius:15px;
 }
 .skillTag:hover,.gameTag:hover,.otherTag:hover{
+	/*cursor:pointer;*/
+}
+.perlenspielTag:hover{
 	cursor:pointer;
 }
-.skillTag{
+.skillTag,.perlenspielTag{
 	background-color:#38C098;
 	color:white;
 }
-.skillTag:hover{
+.skillTag:hover,.perlenspielTag:hover{
 	background-color:#288F70;
 }
 .gameTag{
