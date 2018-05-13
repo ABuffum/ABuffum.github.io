@@ -109,6 +109,9 @@ html, body {
 .otherTag:hover{
 	background-color:#004A7F;
 }
+.icons{
+	text-decoration:none;
+}
 /*Navigation Bar*/
 .NAV {
 	overflow: hidden;
