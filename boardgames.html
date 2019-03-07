@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html style="height:100%;">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Aidan Buffum</title>
+	<link rel = "stylesheet"
+		  type = "text/css"
+		  href = "styles.css" />
+</head>
+
+<body>
+
+<!--Background Grey Block -->
+<div style="position:fixed; background:#DCE2E9; left:10%; right:10%; height:100%;"></div>
+
+<!-- Site Body -->
+<div id="container" style="height:auto;">
+	<!-- Header -->
+	<div class="header"style="padding:0px; z-index: 1;display:block;position:relative;top:0px;">
+		<!-- Grey Area -->
+		<div style="left:0; width:100%; height:40px; background-color:#42484F;">
+			<!-- Content Area -->
+			<div style="position:absolute; left:10%; right:10%; height:40px; background-color:#393E44;">
+
+			</div>
+		</div>
+		<!-- Green Area -->
+		<div style="left:0; width:100%; height:120px; background-color:#38C098;">
+			<!-- Content Area -->
+			<div style="position:absolute; left:10%; right:10%; height:120px; background-color:#288F70; font-size:0">
+				<div class="NAME" style="position:absolute; top:20px; left:10px;">Aidan Buffum</div>
+				<div class="SUBNAME" style="position:absolute;top:70px;left:190px;">Game Programmer/Designer</div>
+				<div class="NAV" style="position:absolute; top:30px; bottom:30px; right:10px;z-index:2;">
+					<a href="index.html" onmouseover="toggleWorkOff()">About</a><!---->
+					<a class="dropbtn" onmouseover="toggleWorkOn()" style="border-left: 1px solid #FFFFFF;">Work</a><!---->
+				</div>
+				<!-- Work Dropdown -->
+				<div id="workToggle" style="position:absolute; top:10px; right:-5px; z-index:1; height:260px; width:200px;" onmouseover="toggleWorkOff()"></div>
+				<div class="dropdown-content" id="workDropdown" style="position:absolute; top:81px; right:10px;">
+					<a href="videogames.html">Digital Games</a>
+					<a href="boardgames.html">Tabletop Games</a>
+					<a href="otherwork.html">Other Work</a>
+				</div>
+			</div>
+			<script>
+				function toggleWorkOn() {
+					var drop = document.getElementById("workDropdown");
+					if (drop.style.display == 'block') {
+						drop.style.display = 'none';
+					} else {
+						drop.style.display = 'block';
+					}
+				}
+				function toggleWorkOff() {
+					var drop = document.getElementById("workDropdown");
+					drop.style.display = 'none';
+				}
+			</script>
+		</div>
+	</div>
+
+	<!-- Body -->
+	<div id="body" style="padding-left:10%; padding-right:10%;">
+		<!-- Content Area -->
+		<div style="margin: 15px;background:#DCE2E9;">
+			<!-- Stuff that's unique to the page goes here -->
+			<div>
+				<a name="roborace"></a>
+				<div class="greyContainer">
+					<div class="splitBody" style="width:100%;background-color:#42484F; margin-top:0px;border-radius:7px;">
+						<div id="roborace" class="splitBody" style="width:37%;padding:0.5%;">
+							<img src="assets/images/games/roborace/cover.png" class="linkImage" style="float:left;width:100%;padding:0"><div style="width:100%;text-align:center;color:white;">
+							</div>
+							<img src="assets/images/games/roborace/componentsSpread.png" class="linkImage" style="padding:1%;"
+								 onclick="window.open(this.src)">
+							<img src="assets/images/games/roborace/playSession.png" class="linkImage" style="padding:1%;"
+								 onclick="window.open(this.src)">
+							<div class="skillTag"> Paper Prototyping </div>
+							<div class="skillTag"> 3D Modeling </div>
+							<div class="skillTag"> Photoshop </div>
+							<div class="gameTag"> Strategy Game </div>
+							<div class="gameTag"> Educational Game </div>
+							<div class="otherTag"> Solo Project </div>
+						</div>
+						<div class="splitBody" style="width:60%;height:100%;background-color:white;padding:0.5%;border-radius:7px;margin:0.5%;">
+							<p style="text-align:center;color:#42484F;"><u>Robo Race</u></p>
+							<p style="text-align:center;color:#42484F;">By Aidan Buffum</p>
+							<p style="color:#42484F;">
+								Robo Race is an educational strategy game designed to teach and reinforce logical and critical thinking skills in children ages 5-14.
+							</p>
+							<p style="color:#42484F;">
+								Two to four players control four robots with secret goals and play cards from their hands to advance their robots while setting their opponent's back.
+							</p>
+							<p style="color:#42484F;">
+								Features rule variants for different age groups to keep the game engaging and introduce more complicated topics.
+							</p>
+							<p style="color:#42484F;">
+								Game pieces designed for 3D Printing.
+							</p>
+						</div>
+					</div>
+				</div>
+				<a name="houseparty"></a>
+				<div class="greyContainer">
+					<div class="splitBody" style="width:100%;background-color:#42484F; margin-top:10px;border-radius:7px;">
+						<div id="houseparty" class="splitBody" style="width:37%;padding:0.5%;">
+							<img src="assets/images/games/houseparty/cover.png" class="linkImage" style="float:left;width:100%;padding:0"><div style="width:100%;text-align:center;color:white;">
+							</div>
+							<img src="assets/images/games/houseparty/playSession.png" class="linkImage" style="padding:1%;"
+								 onclick="window.open(this.src)">
+							<img src="assets/images/games/houseparty/playSession2.png" class="linkImage" style="padding:1%;"
+								 onclick="window.open(this.src)">
+							<div class="skillTag"> Paper Prototyping </div>
+							<div class="skillTag"> Photoshop </div>
+							<div class="gameTag"> Cooperative Game </div>
+							<div class="otherTag"> Class Project </div>
+							<div class="otherTag"> Team Project </div>
+						</div>
+						<div class="splitBody" style="width:60%;height:100%;background-color:white;padding:0.5%;border-radius:7px;margin:0.5%;">
+							<p style="text-align:center;color:#42484F;"><u>House Party</u></p>
+							<p style="text-align:center;color:#42484F;">By Aidan Buffum, Sean Briggs, Jarod Thompson, and William Turner</p>
+							<p style="color:#42484F;">
+								House party is a cooperative game made as the final project for the course Design of Tabletop Strategy Games at Worcester Polytechnic Institute.
+							</p>
+							<p style="color:#42484F;">
+								Three to six players are throwing a house party but it has the potential to get very dangerous very fast.
+								Players must move around the house, escort party guests, help them sober up, and send rowdy guests home to keep their party under control.
+							</p>
+							<p style="color:#42484F;">
+								Features six player roles, 60 random events, and over 40 unique party guests.
+							</p>
+							<p style="color:#42484F;">
+								This game depicts consumption of alcoholic beverages.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Adding this makes sure the footer doesn't overlap the page's content. It's a janky fix but it works -->
+	<div style="width:100%;height:0px;background-color:white;float:left">
+		<p style="color:#FFFFFF;">.</p>
+		<p style="color:#FFFFFF;">.</p>
+		<p style="color:#FFFFFF;">.</p>
+		<p style="color:#FFFFFF;">.</p>
+	</div>
+	<!-- Footer -->
+	<div id="footer">
+		<!-- Social Media -->
+		<div style="width:100%; height:40px; bottom:30px; background-color:#38C098;">
+			<!-- Content Area -->
+			<div style="position:absolute; left:10%; right:10%; height:40px; background-color:#288F70;">
+				<div style="position:absolute; float:left; height:20px; left:50%; top:10px; margin-left:-20px;">
+					<!-- Icons -->
+					<a href="https://aidanbuffum.itch.io/" class="icons">
+						<img src="assets/images/icons/logo_itchio_white.png" alt="itch.io" style="width: 20px;height:20px;">
+					</a>
+					<a href="https://www.linkedin.com/in/aidan-buffum/" class="icons">
+						<img src="assets/images/icons/logo_linkedin_white.png" alt="LinkedIn" style="width: 20px;height:20px;">
+					</a>
+				</div>
+			</div>
+		</div>
+		<!-- Copyright -->
+		<div style="left:0; width:100%; height:30px; bottom:0px; background-color:#42484F;">
+			<!-- Content Area -->
+			<div style="position:absolute; left:10%; right:10%; height:30px; background-color:#393E44;">
+				<p> <div style="margin-top:-10px; text-align:center; color:white; font-size:75%;">Copyright &copy 2018 Aidan Buffum.</div></p>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+</body>
+
+</html>
