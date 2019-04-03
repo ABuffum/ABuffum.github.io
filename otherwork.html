@@ -29,7 +29,9 @@
 		<div style="left:0; width:100%; height:120px; background-color:#38C098;">
 			<!-- Content Area -->
 			<div style="position:absolute; left:10%; right:10%; height:120px; background-color:#288F70; font-size:0">
-				<div class="NAME" style="position:absolute; top:20px; left:10px;">Aidan Buffum</div>
+				<div class="NAME" style="position:absolute; top:20px; left:10px;">
+					<a href="index.html" style="text-decoration:none; color:#FFFFFF;">Aidan Buffum</a>
+				</div>
 				<div class="SUBNAME" style="position:absolute;top:70px;left:190px;">Game Programmer/Designer</div>
 				<div class="NAV" style="position:absolute; top:30px; bottom:30px; right:10px;z-index:2;">
 					<a href="index.html" onmouseover="toggleWorkOff()">About</a><!---->
@@ -65,15 +67,19 @@
 		<!-- Content Area -->
 		<div style="margin: 15px;background:#DCE2E9;">
 			<!-- Stuff that's unique to the page goes here -->
-			<div>
+			<div class="splitBox" style="column-count:1">
+				<style>
+					#togglePuzzlebox:checked ~#expand{ height: auto; }
+					#expand{ height:0px; overflow:hidden; }
+				</style>
 				<a name="puzzlebox"></a>
 				<div class="greyContainer">
-					<div class="splitBody" style="width:100%;background-color:#42484F; margin-top:0px;border-radius:7px;">
-						<div id="puzzlebox" class="splitBody" style="width:37%;padding:0.5%;">
+					<div class="splitBody" style="width:99%;background-color:#42484F; margin-top:0px;border-radius:7px;">
+						<div id="puzzlebox" class="splitBody" style="float:left;width:37%;padding:0.5%;">
 							<img src="assets/images/projects/puzzlebox/cover.png" class="linkImage" style="float:left;width:100%;padding:0"
-								 onclick="window.open('assets/gamefiles/umbra/cover.html')">
-							<img src="assets/images/projects/puzzlebox/frontView2.png" class="linkImage" style="padding:1%; width:31.3%;"
 								 onclick="window.open(this.src)">
+							<img src="assets/images/projects/puzzlebox/frontView2.png" class="linkImage" style="padding:1%; width:31.3%;"
+								onclick="window.open(this.src)">
 							<img src="assets/images/projects/puzzlebox/openView1.png" class="linkImage" style="padding:1%; width:31.3%;"
 								 onclick="window.open(this.src)">
 							<img src="assets/images/projects/puzzlebox/openView2.png" class="linkImage" style="padding:1%; width:31.3%;"
@@ -83,32 +89,39 @@
 							<div class="otherTag"> Class Project </div>
 							<div class="otherTag"> Team Project </div>
 						</div>
-						<div class="splitBody" style="width:60%;height:100%;background-color:white;padding:0.5%;border-radius:7px;margin:0.5%;">
+						<div class="splitBody" style="float:left;width:60%;height:100%;background-color:white;padding:0.5%;border-radius:7px;margin:0.5%;">
 							<p style="text-align:center;color:#42484F;"><u>Reprogrammable Puzzle Box</u></p>
 							<p style="text-align:center;color:#42484F;">By Aidan Buffum</p>
-							<p style="color:#42484F;">
-								The reprogrammable puzzle box is a proof of concept prototype tool for Worcester Polytechnic Institute's annual escape rooms.
-							</p>
-							<p style="color:#42484F;">
-								The box is built to be solved after receiving a combination of keypad inputs and dial turns.
-								Puzzles on the box are designed in multiple stages, the progress of which are displayed on four LEDs.
-								Programmers can define how many stages (between 1 and 768) the box should send the user through before
-								unlocking as well as which of the over 19,000 possible combinations to require the user to solve
-								for each stage. Programmers may also choose whether to randomize the combinations for each stage.
-							</p>
-							<p style="color:#42484F;">
-								The box is designed to accept remote input to manually lock and unlock it.
-								While programming and debugging the box, the non-numerical keys may be used to manually lock and unlock the box.
-								These keys act as reset buttons during the administration of the escape room.
-							</p>
-							<p style="color:#42484F;">
-								Cheat protection is built into the box such that resetting the box will reset progress but will not unlock the box.
-							</p>
-							<p style="color:#42484F;">
-								Programmed by Aidan Buffum
-								<br>
-								Designed by Aidan Buffum and Sky Alsever
-							</p>
+							<input id="togglePuzzlebox" type="checkbox" unchecked>
+							<label for="togglePuzzlebox">Show More</label>
+							<div id="expand">
+								<p style="color:#42484F;">
+									The reprogrammable puzzle box is a proof of concept prototype tool for Worcester Polytechnic Institute's annual escape rooms.
+								</p>
+								<p style="color:#42484F;">
+									The box is built to be solved after receiving a combination of keypad inputs and dial turns.
+									Puzzles on the box are designed in multiple stages, the progress of which are displayed on four LEDs.
+									Programmers can define how many stages (between 1 and 768) the box should send the user through before
+									unlocking as well as which of the over 19,000 possible combinations to require the user to solve
+									for each stage. Programmers may also choose whether to randomize the combinations for each stage.
+								</p>
+								<p style="color:#42484F;">
+									The box is designed to accept remote input to manually lock and unlock it.
+									While programming and debugging the box, the non-numerical keys may be used to manually lock and unlock the box.
+									These keys act as reset buttons during the administration of the escape room.
+								</p>
+								<p style="color:#42484F;">
+									Cheat protection is built into the box such that resetting the box will reset progress but will not unlock the box.
+								</p>
+								<p style="color:#42484F;">
+									Programmed and Constructed by Aidan Buffum
+									<br>
+									Designed by Aidan Buffum and Sky Alsever
+								</p>
+								<p style="color:#42484F;">
+									Made as the final project for the course Novel Interfaces for Interactive Systems at Worcester Polytechnic Institute.
+								</p>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -143,7 +156,7 @@
 		<div style="left:0; width:100%; height:30px; bottom:0px; background-color:#42484F;">
 			<!-- Content Area -->
 			<div style="position:absolute; left:10%; right:10%; height:30px; background-color:#393E44;">
-				<p> <div style="margin-top:-10px; text-align:center; color:white; font-size:75%;">Copyright &copy 2019 Aidan Buffum.</div></p>
+				<p> <div style="margin-top:-10px; text-align:center; color:white; font-size:75%;">Copyright &copy 2018 Aidan Buffum.</div></p>
 			</div>
 		</div>
 	</div>
