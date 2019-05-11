@@ -6,7 +6,7 @@ white			FFFFFF
 light grey		DCE2E9
 medium grey		42484F
 dark grey		393E44
-light purple	9925A5
+light purple		9925A5
 dark purple		6E1B77
 light blue		0094FF
 dark blue		004A7F
@@ -18,6 +18,10 @@ html, body {
 	font-family: Sans-serif;
 	line-height: 1.5em;
 	background: #FFFFFF;
+	color: #42484F;
+}
+p {
+	color: #42484F;
 }
 /*Site Body*/
 #container {
@@ -49,14 +53,18 @@ html, body {
 .greyContainer{
 	width:99%;
 }
+.splitBox{
+	column-count:3;
+	height:auto;
+}
 .splitBody{
-	float: left;
-	padding: 0.5%;
-	width: 49%;
+	display:inline-block;
+	padding:1%;
+	width:49%;
 }
 .linkImage{
 	float:left;
-	width:48%;
+	width:12%;
 	opacity:1;
 }
 .linkImage:hover{
@@ -65,8 +73,8 @@ html, body {
 }
 .skillImage{
 	float:left;
-	width:5%;
-	padding:2.5%;
+	width:12%;
+	padding:4%;
 }
 .hoverLink{
 	text-decoration:none;
@@ -74,6 +82,10 @@ html, body {
 }
 .skillImage:hover, .hoverLink:hover{
 	opacity:0.7;
+}
+.readMore{
+	text-align:center;
+	padding-bottom:12px;
 }
 /*Tags*/
 .skillTag,.gameTag,.otherTag,.perlenspielTag{

@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 ﻿<!DOCTYPE html>
-<!-- saved from url=(0014)about:internet -->
 <html style="height:100%;">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -8,6 +6,7 @@
 	<link rel = "stylesheet"
 		  type = "text/css"
 		  href = "styles.css" />
+	<script src="scripts.js"></script>
 </head>
 
 <body>
@@ -30,7 +29,9 @@
 		<div style="left:0; width:100%; height:120px; background-color:#38C098;">
 			<!-- Content Area -->
 			<div style="position:absolute; left:10%; right:10%; height:120px; background-color:#288F70; font-size:0">
-				<div class="NAME" style="position:absolute; top:20px; left:10px;">Aidan Buffum</div>
+				<div class="NAME" style="position:absolute; top:20px; left:10px;">
+					<a href="index.html" style="text-decoration:none; color:#FFFFFF;">Aidan Buffum</a>
+				</div>
 				<div class="SUBNAME" style="position:absolute;top:70px;left:190px;">Game Programmer/Designer</div>
 				<div class="NAV" style="position:absolute; top:30px; bottom:30px; right:10px;z-index:2;">
 					<a href="index.html" onmouseover="toggleWorkOff()">About</a><!---->
@@ -44,20 +45,6 @@
 					<a href="otherwork.html">Other Work</a>
 				</div>
 			</div>
-			<script>
-				function toggleWorkOn() {
-					var drop = document.getElementById("workDropdown");
-					if (drop.style.display == 'block') {
-						drop.style.display = 'none';
-					} else {
-						drop.style.display = 'block';
-					}
-				}
-				function toggleWorkOff() {
-					var drop = document.getElementById("workDropdown");
-					drop.style.display = 'none';
-				}
-			</script>
 		</div>
 	</div>
 
@@ -66,13 +53,125 @@
 		<!-- Content Area -->
 		<div style="margin: 15px;background:#DCE2E9;">
 			<!-- Stuff that's unique to the page goes here -->
-			<div>
+			<div class="splitBox" style="column-count:3">
+				<a name="quiltgen"></a>
+				<div class="greyContainer">
+					<div class="splitBody" style="width:99%;background-color:#42484F; margin-top:0px;border-radius:7px;">
+						<div id="quiltgen" class="splitBody" style="float:left;width:99%;padding:0.5%;">
+							<img src="assets/images/projects/quiltgen/javascriptEditorInterface.png" class="linkImage" style="float:left;width:100%;padding:0" title="Live Editor Interface - JavaScript"
+								 onclick="window.open(this.src)">
+							<img src="assets/images/projects/quiltgen/javaEvolutionInterface.png" class="linkImage" style="padding:1%; width:31.3%;" title="Evolution-Based Generator Interface - Java"
+								 onclick="window.open(this.src)">
+							<img src="assets/images/projects/quiltgen/cool10.png" class="linkImage" style="padding:1%; width:31.3%;"
+								 onclick="window.open(this.src)">
+							<img src="assets/images/projects/quiltgen/warm1000.png" class="linkImage" style="padding:1%; width:31.3%;"
+								 onclick="window.open(this.src)">
+							<div class="skillTag"> JavaScript </div>
+							<div class="skillTag"> Java </div>
+							<div class="skillTag"> Traditional Crafts </div>
+							<div class="gameTag"> Educational </div>
+							<div class="otherTag"> Independent Study Project </div>
+							<div class="otherTag"> Sponsored Work </div>
+							<div class="otherTag"> Team Project </div>
+						</div>
+						<div class="splitBody" style="float:left;width:98%;height:100%;background-color:white;padding:0.5%;border-radius:7px;margin:0.5%;">
+							<p style="text-align:center;color:#42484F;"><u>Quilt Generation for Computer Science Education</u></p>
+							<p style="text-align:center;color:#42484F;">As part of the <a href="http://www.code-crafter.com/wp/" style="color:#42484F;">Code Crafters</a> project</p>
+							<div class="readMore">
+								<button onclick="readMoreLess('expand_Quiltgen','button_Quiltgen')" id="button_Quiltgen">Read More</button>
+							</div>
+							<div id="expand_Quiltgen" style="display:none;">
+								<p>
+									The Code Crafters project aims to use the generation of quilts as a vehicle to teach computer science to users who are
+									familiar with traditional crafts but not programming. To fulfill that goal, workshops are to be run with software that
+									generates quilt designs based on half-square triangles. Participants will learn how the program works and how to modify
+									the generator / generated quilts to fit their visions.
+								</p>
+								<p>
+									The first prototype generator for the project was an evolution-based generator written in Java using
+									<a href="https://processing.org/" style="color:#42484F;">Processing</a>. This prototype randomly generates a number of quilts according to
+									several base parameters. For as many generations as the user specified, the generator selects some number of "best"
+									quilts from that generation according to user-specified fitness functions. Upon reaching the final generation, the
+									user is able to sift through each of the generated quilts from that generation and view the RGB, Hexadecimal,
+									and HSV values for each triangle in the quilt.
+								</p>
+								<p>
+									The second and current prototype generator for the project is a live editor written in JavaScript using
+									<a href="https://p5js.org/" style="color:#42484F;">p5.js</a>. This prototype allows the user to upload a text representation of a base quilt
+									to begin editing or to define a quilt entirely in the text fields of the editor. The structure of the editor is built
+									around the idea of user manipulation of the plaintext quilt data. Fabric colors for the quilt are declared before the
+									main body of data and represented with single characters in order to introduce the concept of variables while doing so
+									in a way that many experienced quilters may already be experienced with.
+								</p>
+								<p>
+									Live editor and Evolution-based generator programmed in part by Aidan Buffum
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a name="marioquilts"></a>
+				<div class="greyContainer">
+					<div class="splitBody" style="width:99%;background-color:#42484F; margin-top:0px;border-radius:7px;">
+						<div id="marioquilts" class="splitBody" style="float:left;width:99%;padding:0.5%;">
+							<img src="assets/images/projects/marioquilts/standard_quilt_output.png" class="linkImage" style="float:left;width:100%;padding:0"
+								 onclick="window.open(this.src)">
+							<img src="assets/images/projects/marioquilts/06_level_output.jpg" class="linkImage" style="padding:0.5%; width:49%;"
+								 onclick="window.open(this.src)">
+							<img src="assets/images/projects/marioquilts/06_quilt_output.png" class="linkImage" style="padding:0.5%; width:49%;"
+								 onclick="window.open(this.src)">
+							<img src="assets/images/projects/marioquilts/07_level_output.jpg" class="linkImage" style="padding:0.5%; width:49%;"
+								 onclick="window.open(this.src)">
+							<img src="assets/images/projects/marioquilts/07_quilt_output.png" class="linkImage" style="padding:0.5%; width:49%;"
+								 onclick="window.open(this.src)">
+							<img src="assets/images/projects/marioquilts/13_level_output.jpg" class="linkImage" style="padding:0.5%; width:49%;"
+								 onclick="window.open(this.src)">
+							<img src="assets/images/projects/marioquilts/13_quilt_output.png" class="linkImage" style="padding:0.5%; width:49%;"
+								 onclick="window.open(this.src)">
+							<img src="assets/images/projects/marioquilts/17_level_output.jpg" class="linkImage" style="padding:0.5%; width:49%;"
+								 onclick="window.open(this.src)">
+							<img src="assets/images/projects/marioquilts/17_quilt_output.png" class="linkImage" style="padding:0.5%; width:49%;"
+								 onclick="window.open(this.src)">
+							<div class="skillTag"> Java </div>
+							<div class="skillTag"> Traditional Crafts </div>
+							<div class="otherTag"> Class Project </div>
+							<div class="otherTag"> Team Project </div>
+						</div>
+						<div class="splitBody" style="float:left;width:98%;height:100%;background-color:white;padding:0.5%;border-radius:7px;margin:0.5%;">
+							<p style="text-align:center;color:#42484F;"><u>Mario Level Generator and Quilt Renderer</u></p>
+							<p style="text-align:center;color:#42484F;">By Aidan Buffum, Hung Hong, and Remy Kaldawy</p>
+							<div class="readMore">
+								<button onclick="readMoreLess('expand_Marioquilts','button_Marioquilts')" id="button_Marioquilts">Read More</button>
+							</div>
+							<div id="expand_Marioquilts" style="display:none;">
+								<p>
+									The Mario Level Generator and Quilt Renderer is separated into three distinct parts. The first part of the program
+									uses a grammar-based system to generate random Mario Levels of a desired length. The second part runs a player agent
+									through each of the generated levels to determine playability in terms of whether the level can be completed and how
+									much of a challenge the platforming in the level presents. The final part of the program renders out any viable
+									levels, as determined by the evaluator, in both the standard graphics of Super Mario World and as a semi-optimized
+									quilting pattern.
+								</p>
+								<p>
+									Generator programmed primarily by Remy Kaldawy
+									<br />
+									Evaluator programmed primarily by Hung Hong
+									<br />
+									Renderer programmed primarily by Aidan Buffum
+								</p>
+								<p>
+									Made as the final project for the Artificial Intelligence for Interactive Media and Games course at Worcester Polytechnic Institute.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
 				<a name="puzzlebox"></a>
 				<div class="greyContainer">
-					<div class="splitBody" style="width:100%;background-color:#42484F; margin-top:0px;border-radius:7px;">
-						<div id="puzzlebox" class="splitBody" style="width:37%;padding:0.5%;">
+					<div class="splitBody" style="width:99%;background-color:#42484F; margin-top:0px;border-radius:7px;">
+						<div id="puzzlebox" class="splitBody" style="float:left;width:99%;padding:0.5%;">
 							<img src="assets/images/projects/puzzlebox/cover.png" class="linkImage" style="float:left;width:100%;padding:0"
-								 onclick="window.open('assets/gamefiles/umbra/cover.html')">
+								 onclick="window.open(this.src)">
 							<img src="assets/images/projects/puzzlebox/frontView2.png" class="linkImage" style="padding:1%; width:31.3%;"
 								 onclick="window.open(this.src)">
 							<img src="assets/images/projects/puzzlebox/openView1.png" class="linkImage" style="padding:1%; width:31.3%;"
@@ -84,39 +183,47 @@
 							<div class="otherTag"> Class Project </div>
 							<div class="otherTag"> Team Project </div>
 						</div>
-						<div class="splitBody" style="width:60%;height:100%;background-color:white;padding:0.5%;border-radius:7px;margin:0.5%;">
+						<div class="splitBody" style="float:left;width:98%;height:100%;background-color:white;padding:0.5%;border-radius:7px;margin:0.5%;">
 							<p style="text-align:center;color:#42484F;"><u>Reprogrammable Puzzle Box</u></p>
-							<p style="text-align:center;color:#42484F;">By Aidan Buffum</p>
-							<p style="color:#42484F;">
-								The reprogrammable puzzle box is a proof of concept prototype tool for Worcester Polytechnic Institute's annual escape rooms.
-							</p>
-							<p style="color:#42484F;">
-								The box is built to be solved after receiving a combination of keypad inputs and dial turns.
-								Puzzles on the box are designed in multiple stages, the progress of which are displayed on four LEDs.
-								Programmers can define how many stages (between 1 and 768) the box should send the user through before
-								unlocking as well as well as which of the over 19,000 possible cominations to require the user to solve
-								for each stage. Programmers may also choose whether to randomize the combinations for each stage.
-							</p>
-							<p>
-								The box is designed to accept remote input to manually lock and unlock it.
-								While programming and debugging the box, the non-numerical keys may be used to manually lock and unlock the box.
-								These keys act as reset buttons during the administration of the escape room.
-							</p>
-							<p>
-								Cheat protection is built into the box such that resetting the box will reset progress but will not unlock the box.
-							</p>
-							<p>
-								Programmed by Aidan Buffum
-								<br>
-								Designed by Aidan Buffum and Sky Alsever
-							</p>
+							<p style="text-align:center;color:#42484F;">By Aidan Buffum and Sky Alsever</p>
+							<div class="readMore">
+								<button onclick="readMoreLess('expand_Puzzlebox','button_Puzzlebox')" id="button_Puzzlebox">Read More</button>
+							</div>
+							<div id="expand_Puzzlebox" style="display:none;">
+								<p>
+									The reprogrammable puzzle box is a proof of concept prototype tool for Worcester Polytechnic Institute's annual escape rooms.
+								</p>
+								<p>
+									The box is built to be solved after receiving a combination of keypad inputs and dial turns.
+									Puzzles on the box are designed in multiple stages, the progress of which are displayed on four LEDs.
+									Programmers can define how many stages (between 1 and 768) the box should send the user through before
+									unlocking as well as which of the over 19,000 possible combinations to require the user to solve
+									for each stage. Programmers may also choose whether to randomize the combinations for each stage.
+								</p>
+								<p>
+									The box is designed to accept remote input to manually lock and unlock it.
+									While programming and debugging the box, the non-numerical keys may be used to manually lock and unlock the box.
+									These keys act as reset buttons during the administration of the escape room.
+								</p>
+								<p>
+									Cheat protection is built into the box such that resetting the box will reset progress but will not unlock the box.
+								</p>
+								<p>
+									Programmed and Constructed by Aidan Buffum
+									<br>
+									Designed by Aidan Buffum and Sky Alsever
+								</p>
+								<p>
+									Made as the final project for the course Novel Interfaces for Interactive Systems at Worcester Polytechnic Institute.
+								</p>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- Adding this makes sure the footer doesn't overlap the page's content. It's a janky fix but it works -->
+	<!-- Adding this makes sure the footer doesn't overlap the page's content -->
 	<div style="width:100%;height:0px;background-color:white;float:left">
 		<p style="color:#FFFFFF;">.</p>
 		<p style="color:#FFFFFF;">.</p>
@@ -144,7 +251,7 @@
 		<div style="left:0; width:100%; height:30px; bottom:0px; background-color:#42484F;">
 			<!-- Content Area -->
 			<div style="position:absolute; left:10%; right:10%; height:30px; background-color:#393E44;">
-				<p> <div style="margin-top:-10px; text-align:center; color:white; font-size:75%;">Copyright &copy 2018 Aidan Buffum.</div></p>
+				<p> <div style="margin-top:-10px; text-align:center; color:white; font-size:75%;">Copyright &copy 2019 Aidan Buffum.</div></p>
 			</div>
 		</div>
 	</div>
@@ -154,160 +261,3 @@
 </body>
 
 </html>
-=======
-﻿<!DOCTYPE html>
-<!-- saved from url=(0014)about:internet -->
-<html style="height:100%;">
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>Aidan Buffum</title>
-	<link rel = "stylesheet"
-		  type = "text/css"
-		  href = "styles.css" />
-</head>
-
-<body>
-
-<!--Background Grey Block -->
-<div style="position:fixed; background:#DCE2E9; left:10%; right:10%; height:100%;"></div>
-
-<!-- Site Body -->
-<div id="container" style="height:auto;">
-	<!-- Header -->
-	<div class="header"style="padding:0px; z-index: 1;display:block;position:relative;top:0px;">
-		<!-- Grey Area -->
-		<div style="left:0; width:100%; height:40px; background-color:#42484F;">
-			<!-- Content Area -->
-			<div style="position:absolute; left:10%; right:10%; height:40px; background-color:#393E44;">
-
-			</div>
-		</div>
-		<!-- Green Area -->
-		<div style="left:0; width:100%; height:120px; background-color:#38C098;">
-			<!-- Content Area -->
-			<div style="position:absolute; left:10%; right:10%; height:120px; background-color:#288F70; font-size:0">
-				<div class="NAME" style="position:absolute; top:20px; left:10px;">Aidan Buffum</div>
-				<div class="SUBNAME" style="position:absolute;top:70px;left:190px;">Game Programmer/Designer</div>
-				<div class="NAV" style="position:absolute; top:30px; bottom:30px; right:10px;z-index:2;">
-					<a href="index.html" onmouseover="toggleWorkOff()">About</a><!---->
-					<a class="dropbtn" onmouseover="toggleWorkOn()" style="border-left: 1px solid #FFFFFF;">Work</a><!---->
-				</div>
-				<!-- Work Dropdown -->
-				<div id="workToggle" style="position:absolute; top:10px; right:-5px; z-index:1; height:260px; width:200px;" onmouseover="toggleWorkOff()"></div>
-				<div class="dropdown-content" id="workDropdown" style="position:absolute; top:81px; right:10px;">
-					<a href="videogames.html">Digital Games</a>
-					<a href="boardgames.html">Tabletop Games</a>
-					<a href="otherwork.html">Other Work</a>
-				</div>
-			</div>
-			<script>
-				function toggleWorkOn() {
-					var drop = document.getElementById("workDropdown");
-					if (drop.style.display == 'block') {
-						drop.style.display = 'none';
-					} else {
-						drop.style.display = 'block';
-					}
-				}
-				function toggleWorkOff() {
-					var drop = document.getElementById("workDropdown");
-					drop.style.display = 'none';
-				}
-			</script>
-		</div>
-	</div>
-
-	<!-- Body -->
-	<div id="body" style="padding-left:10%; padding-right:10%;">
-		<!-- Content Area -->
-		<div style="margin: 15px;background:#DCE2E9;">
-			<!-- Stuff that's unique to the page goes here -->
-			<div>
-				<a name="puzzlebox"></a>
-				<div class="greyContainer">
-					<div class="splitBody" style="width:100%;background-color:#42484F; margin-top:0px;border-radius:7px;">
-						<div id="puzzlebox" class="splitBody" style="width:37%;padding:0.5%;">
-							<img src="assets/images/projects/puzzlebox/cover.png" class="linkImage" style="float:left;width:100%;padding:0"
-								 onclick="window.open('assets/gamefiles/umbra/cover.html')">
-							<img src="assets/images/projects/puzzlebox/frontView2.png" class="linkImage" style="padding:1%; width:31.3%;"
-								 onclick="window.open(this.src)">
-							<img src="assets/images/projects/puzzlebox/openView1.png" class="linkImage" style="padding:1%; width:31.3%;"
-								 onclick="window.open(this.src)">
-							<img src="assets/images/projects/puzzlebox/openView2.png" class="linkImage" style="padding:1%; width:31.3%;"
-								 onclick="window.open(this.src)">
-							<div class="skillTag"> Solidworks </div>
-							<div class="skillTag"> Arduino </div>
-							<div class="otherTag"> Class Project </div>
-							<div class="otherTag"> Team Project </div>
-						</div>
-						<div class="splitBody" style="width:60%;height:100%;background-color:white;padding:0.5%;border-radius:7px;margin:0.5%;">
-							<p style="text-align:center;color:#42484F;"><u>Reprogrammable Puzzle Box</u></p>
-							<p style="text-align:center;color:#42484F;">By Aidan Buffum</p>
-							<p style="color:#42484F;">
-								The reprogrammable puzzle box is a proof of concept prototype tool for Worcester Polytechnic Institute's annual escape rooms.
-							</p>
-							<p style="color:#42484F;">
-								The box is built to be solved after receiving a combination of keypad inputs and dial turns.
-								Puzzles on the box are designed in multiple stages, the progress of which are displayed on four LEDs.
-								Programmers can define how many stages (between 1 and 768) the box should send the user through before
-								unlocking as well as well as which of the over 19,000 possible cominations to require the user to solve
-								for each stage. Programmers may also choose whether to randomize the combinations for each stage.
-							</p>
-							<p>
-								The box is designed to accept remote input to manually lock and unlock it.
-								While programming and debugging the box, the non-numerical keys may be used to manually lock and unlock the box.
-								These keys act as reset buttons during the administration of the escape room.
-							</p>
-							<p>
-								Cheat protection is built into the box such that resetting the box will reset progress but will not unlock the box.
-							</p>
-							<p>
-								Programmed by Aidan Buffum
-								<br>
-								Designed by Aidan Buffum and Sky Alsever
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Adding this makes sure the footer doesn't overlap the page's content. It's a janky fix but it works -->
-	<div style="width:100%;height:0px;background-color:white;float:left">
-		<p style="color:#FFFFFF;">.</p>
-		<p style="color:#FFFFFF;">.</p>
-		<p style="color:#FFFFFF;">.</p>
-		<p style="color:#FFFFFF;">.</p>
-	</div>
-	<!-- Footer -->
-	<div id="footer">
-		<!-- Social Media -->
-		<div style="width:100%; height:40px; bottom:30px; background-color:#38C098;">
-			<!-- Content Area -->
-			<div style="position:absolute; left:10%; right:10%; height:40px; background-color:#288F70;">
-				<div style="position:absolute; float:left; height:20px; left:50%; top:10px; margin-left:-20px;">
-					<!-- Icons -->
-					<a href="https://aidanbuffum.itch.io/" class="icons">
-						<img src="assets/images/icons/logo_itchio_white.png" alt="itch.io" style="width: 20px;height:20px;">
-					</a>
-					<a href="https://www.linkedin.com/in/aidan-buffum/" class="icons">
-						<img src="assets/images/icons/logo_linkedin_white.png" alt="LinkedIn" style="width: 20px;height:20px;">
-					</a>
-				</div>
-			</div>
-		</div>
-		<!-- Copyright -->
-		<div style="left:0; width:100%; height:30px; bottom:0px; background-color:#42484F;">
-			<!-- Content Area -->
-			<div style="position:absolute; left:10%; right:10%; height:30px; background-color:#393E44;">
-				<p> <div style="margin-top:-10px; text-align:center; color:white; font-size:75%;">Copyright &copy 2018 Aidan Buffum.</div></p>
-			</div>
-		</div>
-	</div>
-
-</div>
-
-</body>
-
-</html>
->>>>>>> origin/master
