@@ -1,0 +1,34 @@
+{
+	"title": "Umbra",
+	"coverImage": "assets/gamefiles/umbra/cover.png",
+	"coverLink": "assets/gamefiles/umbra/cover.html",
+	"images": [
+		"assets/images/games/umbra/screenshot 1.png",
+		"assets/images/games/umbra/screenshot 2.png",
+		"assets/images/games/umbra/screenshot 3.png",
+		"assets/images/games/umbra/screenshot 4.png"
+	],
+	"skillTags": [
+		"Perlenspiel",
+		"JavaScript"
+	],
+	"gameTags": [
+		"Puzzle Game",
+		"2D"
+	],
+	"otherTags": [
+		"Class Project",
+		"Team Project"
+	],
+	"authors": [
+		"Aidan Buffum",
+		"William Hartman"
+	],
+	"description": [
+		"Umbra is an abstract puzzle game where the player carefully navigates a ball to the goal while avoiding an encroaching darkness.",
+		"Umbra is played only with the arrow keys.",
+		"Umbra is available to play <a href=\"assets/gamefiles/umbra/cover.html\" class=\"hoverLink\" style= \"color:#42484F;\" ><u>here</u></a> in browser.",
+		"Programming by Aidan Buffum and William Hartman<br>Cover Art by Aidan Buffum",
+		"Made as the final project for the course Digital Game Design I at Worcester Polytechnic Institute."
+	]
+}
