@@ -4,16 +4,33 @@
 			"title": "Umbra",
 			"coverImage": "assets/gamefiles/umbra/cover.png",
 			"playLink": "assets/gamefiles/umbra/cover.html",
-			"images": [ "assets/images/games/umbra/screenshot 1.png", "assets/images/games/umbra/screenshot 2.png", "assets/images/games/umbra/screenshot 3.png", "assets/images/games/umbra/screenshot 4.png" ],
-			"skillTags": [ "Perlenspiel", "JavaScript" ],
-			"gameTags": [ "Puzzle Game", "2D" ],
-			"otherTags": [ "Class Project", "Team Project" ],
-			"authors": [ "Aidan Buffum", "William Hartman" ],
+			"images": [
+				"assets/images/games/umbra/screenshot 1.png",
+				"assets/images/games/umbra/screenshot 2.png",
+				"assets/images/games/umbra/screenshot 3.png",
+				"assets/images/games/umbra/screenshot 4.png"
+			],
+			"skillTags": [
+				"Perlenspiel",
+				"JavaScript"
+			],
+			"gameTags": [
+				"Puzzle Game",
+				"2D"
+			],
+			"otherTags": [
+				"Class Project",
+				"Team Project"
+			],
+			"authors": [
+				"Aidan Buffum",
+				"William Hartman"
+			],
 			"description": [
 				"Umbra is an abstract puzzle game where the player carefully navigates a ball to the goal while avoiding an encroaching darkness.",
 				"Umbra is played only with the arrow keys.",
-				"Programming by Aidan Buffum and William Hartman",
-				"Cover Art by Aidan Buffum",
+				"Contrast Bounce is available to play <a href=\"assets/gamefiles/constrastbounce/cover.html\" class=\"hoverLink\" style=\"color:#42484F;\"><u>here</u></a> in browser.",
+				"Programming by Aidan Buffum and William Hartman<br>Cover Art by Aidan Buffum",
 				"Made as the final project for the course Digital Game Design I at Worcester Polytechnic Institute."
 			]
 		},
@@ -21,17 +38,370 @@
 			"title": "Contrast Bounce",
 			"coverImage": "assets/gamefiles/contrastbounce/cover.png",
 			"playLink": "assets/gamefiles/contrastbounce/cover.html",
-			"images": [ "assets/images/games/contrastbounce/screenshot 1.png", "assets/images/games/contrastbounce/screenshot 2.png", "assets/images/games/contrastbounce/screenshot 3.png", "assets/images/games/contrastbounce/screenshot 4.png" ],
-			"skillTags": [ "Perlenspiel", "JavaScript" ],
-			"gameTags": [ "Puzzle Game", "2D" ],
-			"otherTags": [ "Class Project", "Team Project" ],
-			"authors": [ "Aidan Buffum", "William Hartman" ],
+			"images": [
+				"assets/images/games/contrastbounce/screenshot 1.png",
+				"assets/images/games/contrastbounce/screenshot 2.png",
+				"assets/images/games/contrastbounce/screenshot 3.png",
+				"assets/images/games/contrastbounce/screenshot 4.png"
+			],
+			"skillTags": [
+				"Perlenspiel",
+				"JavaScript"
+			],
+			"gameTags": [
+				"Puzzle Game",
+				"2D"
+			],
+			"otherTags": [
+				"Class Project",
+				"Team Project"
+			],
+			"authors": [
+				"Aidan Buffum",
+				"William Hartman"
+			],
 			"description": [
 				"Contrast Bounce is an abstract puzzle game where the player inverts the colors of the map to fire a ball at the goal.",
 				"Contrast Bounce is played only with the space bar and the mouse.",
-				"Contrast Bounce is available to play <a href=\"assets/gamefiles/constrastbounce/cover.html\" class=\"hoverLink\" style=\"color:#42484F;\"><u>here</u></a> in browser.",
 				"Programming by Aidan Buffum and William Hartman<br>Cover Art by Aidan Buffum",
 				"Made as a project for the course Digital Game Design I at Worcester Polytechnic Institute."
+			]
+		},
+		{
+			"title": "I Dig It",
+			"coverImage": "assets/images/games/idigit/cover.png",
+			"playLink": "https://aidanbuffum.itch.io/i-dig-it",
+			"images": [
+				"assets/images/games/idigit/Screenshot Title.png",
+				"assets/images/games/idigit/Screenshot 1.png",
+				"assets/images/games/idigit/Screenshot Winner.png",
+				"assets/images/games/idigit/WPIShowfest_Spring2019.png"
+			],
+			"skillTags": [
+				"Unity",
+				"C#",
+				"Blender"
+			],
+			"gameTags": [
+				"Action Game",
+				"Multiplayer",
+				"3D"
+			],
+			"otherTags": [
+				"Game Jam",
+				"Solo Project"
+			],
+			"authors": [
+				"Aidan Buffum"
+			],
+			"description": [
+				"I Dig It is a fast-paced, local muliplayer, competitive digging game. 2-4 Players must quickly dig holes to drop their opponents into the abyss and be the last one standing.",
+				"I Dig It is available for download <a href=\"https://aidanbuffum.itch.io/i-dig-it\" class=\"hoverLink\" style=\"color:#42484F;\"><u>here</u></a> on itch.io",
+				"Controllers are required to play this game.",
+				"Made during the Cutthroat Game Jam 2019 hosted by the Game Development Club at Worcester Polytechnic Institute."
+			]
+		},
+		{
+			"title": "Wizards vs Robots",
+			"coverImage": "assets/images/games/wizardsvsrobots/titleSquare.png",
+			"playLink": "https://aidanbuffum.itch.io/wizards-vs-robots",
+			"images": [
+				"assets/images/games/wizardsvsrobots/Gameplay 1.png",
+				"assets/images/games/wizardsvsrobots/Gameplay 4.png",
+				"assets/images/games/wizardsvsrobots/Gameplay 5.png",
+				"assets/images/games/wizardsvsrobots/Gameplay 8.png"
+			],
+			"skillTags": [
+				"GameMaker Studio",
+				"Pixel Art"
+			],
+			"gameTags": [
+				"Action Platformer",
+				"2D"
+			],
+			"otherTags": [
+				"Class Project",
+				"Team Project"
+			],
+			"authors": [
+				"Aidan Bufum",
+				"Matthew Kaminski",
+				"William Lucca"
+			],
+			"description": [
+				"Wizards Vs Robots is an action platformer game where the player controls a powerful wizard and takes him down one of two unique paths for a different experience during each playthrough. The player can switch between 3 different spells, each with their own effects and advantages to fight the evil robot horde in the wizard's way.",
+				"Wizards vs Robots is available for download <a href=\"https://aidanbuffum.itch.io/wizards-vs-robots\" class=\"hoverLink\" style=\"color:#42484F;\"><u>here</u></a> on itch.io",
+				"Programming by Aidan Buffum and Matthew Kaminski<br>Cover Art by Aidan Buffum<br>Audio by William Lucca",
+				"Made as the final project for the course The Game Development Process at Worcester Polytechnic Institute."
+			]
+		},
+		{
+			"title": "Joe",
+			"coverImage": "assets/images/games/joe/titleSquare.png",
+			"playLink": "https://aidanbuffum.itch.io/joe",
+			"images": [
+				"assets/images/games/joe/screenshot-1.png",
+				"assets/images/games/joe/screenshot-3.png",
+				"assets/images/games/joe/screenshot-4.png",
+				"assets/images/games/joe/screenshot-2.png"
+			],
+			"skillTags": [
+				"GameMaker Studio",
+				"Pixel Art"
+			],
+			"gameTags": [
+				"Role Playing Game",
+				"2D"
+			],
+			"otherTags": [
+				"Game Jam",
+				"Solo Project"
+			],
+			"authors": [
+				"Aidan Bufum"
+			],
+			"description": [
+				"Joe is a short comedy role playing game with nothing out of the ordinary. You play as Joe A. Verage. Outside your dayjob as a barista, you're just an average joe. Everybody in town knows you. Your boss likes your hard work. You have a face.",
+				"Grab some coffee. Have some fun!",
+				"Joe is available for download <a href=\"https://aidanbuffum.itch.io/joe\" class=\"hoverLink\" style=\"color:#42484F;\"><u>here</u></a> on itch.io",
+				"Game playthrough takes approximately 15 minutes.",
+				"Made during the Cutthroat Game Jam 2017 hosted by the Game Development Club at Worcester Polytechnic Institute."
+			]
+		},
+		{
+			"title": "Murder Bee Wrote",
+			"coverImage": "assets/images/games/murderbeewrote/titleSquare.png",
+			"playLink": "https://erikcerini.itch.io/murder-bee-wrote",
+			"images": [
+				"assets/images/games/murderbeewrote/Gameplay.png",
+				"assets/images/games/murderbeewrote/Gameplay2.png",
+				"assets/images/games/murderbeewrote/Gameplay3.png",
+				"assets/images/games/murderbeewrote/Gameplay4.png"
+			],
+			"skillTags": [
+				"Unity",
+				"C#",
+				"Photoshop"
+			],
+			"gameTags": [
+				"Infinite Runner",
+				"2D"
+			],
+			"otherTags": [
+				"Game Jam",
+				"Team Project"
+			],
+			"authors": [
+				"Aidan Bufum",
+				"Kate Olguin",
+				"Erik Cerini"
+			],
+			"description": [
+				"Murder Bee Wrote is an infinite platform running game where the player controls a murderer who has switched places with a bumblebee.",
+				"The player must sate their bloodlust by destroying the bees all around them. Punch bees! Javelin them with the stingers of their fallen! Kill as many bees as possible to earn the ultimate high score!",
+				"Murder Bee Wrote is available for download <a href=\"https://erikcerini.itch.io/murder-bee-wrote\" class=\"hoverLink\" style=\"color:#42484F;\"><u>here</u></a> on itch.io",
+				"Programming by Aidan Buffum and Erik Cerini<br>Art by Aidan Buffum and Kate Olguin<br>Audio by Kate Olguin",
+				"Made during the Magic Realism Jam 2016 hosted by the Game Development Club at Worcester Polytechnic Institute."
+			]
+		}
+	],
+	"boardgames": [
+		{
+			"title": "Robo Race",
+			"coverImage": "assets/images/games/roborace/cover.png",
+			"playLink": "",
+			"images": [
+				"assets/images/games/roborace/componentsSpread.png",
+				"assets/images/games/roborace/playSession.png",
+				"assets/images/games/roborace/robotrace1.png"
+			],
+			"skillTags": [
+				"3D Printing",
+				"Photoshop",
+				"Paper Prototyping"
+			],
+			"gameTags": [
+				"Strategy Game",
+				"Educational Game"
+			],
+			"otherTags": [
+				"Solo Project"
+			],
+			"authors": [
+				"Aidan Buffum"
+			],
+			"description": [
+				"Robo Race is an educational strategy game designed to teach and reinforce logical and critical thinking skills in children ages 5-14.",
+				"Two to four players control four robots with secret goals, playing cards from their hands to advance their robots while setting their opponents' robots back.",
+				"Features rule variants for different age groups to keep the game engaging and to introduce more complicated topics.",
+				"Game pieces designed for 3D Printing."
+			]
+		},
+		{
+			"title": "Dollar Domination",
+			"coverImage": "assets/images/games/dollardomination/coverSquare.png",
+			"playLink": "",
+			"images": [
+				"assets/images/games/dollardomination/gamesforchange.png",
+				"assets/images/games/dollardomination/industries.png"
+			],
+			"skillTags": [
+				"Photoshop",
+				"Paper Prototyping"
+			],
+			"gameTags": [
+				"Serious Game",
+				"Educational Game"
+			],
+			"otherTags": [
+				"Class Project",
+				"Team Project"
+			],
+			"authors": [
+				"Aidan Bufum",
+				"Kate Olguin",
+				"Shiyi Liu"
+			],
+			"description": [
+				"Dollar Domination is a monopoly style game designed to acknowledge the original theme of Elizabeth Magie's <i>The Landlord's Game</i> and draw attention to the dangers of unregulated capitalism and how it allows businesses to take advantage of the general public.",
+				"Three to six players fight to control the economy of the board and bankrupt the competition. Players face economic inequality as the amount of money each player starts with differs greatly from player to player.",
+				"Shown at the Games for Change Festival 2017.",
+				"Made as the final project for the course Social Issues in Interactive Media & Games at Worcester Polytechnic Institute."
+			]
+		},
+		{
+			"title": "House Party",
+			"coverImage": "assets/images/games/houseparty/cover.png",
+			"playLink": "",
+			"images": [
+				"assets/images/games/houseparty/playSession.png",
+				"assets/images/games/houseparty/playSession2.png"
+			],
+			"skillTags": [
+				"Photoshop",
+				"Paper Prototyping"
+			],
+			"gameTags": [
+				"Cooperative Game"
+			],
+			"otherTags": [
+				"Class Project",
+				"Team Project"
+			],
+			"authors": [
+				"Aidan Bufum",
+				"Kate Briggs",
+				"Jarod Thompson",
+				"William Suriner"
+			],
+			"description": [
+				"House party is a cooperative game in which three to six players are throwing a house party but it has the potential to get very dangerous very fast. Players must move around the house, escort party guests, help them sober up, and send rowdy guests home to keep the party under control.",
+				"Features six player roles, 60 random events, and over 40 unique party guests.",
+				"Made as the final project for the course Design of Tabletop Strategy Games at Worcester Polytechnic Institute.",
+				"This game depicts consumption of alcoholic beverages."
+			]
+		}
+	],
+	"other": [
+		{
+			"title": "Quilt Generation for Computer Science Education",
+			"coverImage": "assets/images/projects/quiltgen/javascriptEditorInterface.png",
+			"playLink": "http://www.code-crafter.com/wp/",
+			"images": [
+				"assets/images/projects/quiltgen/javaEvolutionInterface.png",
+				"assets/images/projects/quiltgen/Cool10.png",
+				"assets/images/projects/quiltgen/Warm1000.png"
+			],
+			"skillTags": [
+				"JavaScript",
+				"Java",
+				"Traditional Crafts"
+			],
+			"gameTags": [
+				"Educational"
+			],
+			"otherTags": [
+				"Independent Study Project",
+				"Sponsored Work",
+				"Team Project"
+			],
+			"authors": [
+				"As part of the <a href=\"http://www.code-crafter.com/wp/\" style=\"color:#42484F;\">Code Crafters</a> project"
+			],
+			"description": [
+				"The Code Crafters project aims to use the generation of quilts as a vehicle to teach computer science to users who are familiar with traditional crafts but not programming. To fulfill that goal, workshops are to be run with software that generates quilt designs based on half-square triangles. Participants will learn how the program works and how to modify the generator / generated quilts to fit their visions.",
+				"The first prototype generator for the project was an evolution-based generator written in Java using <a href=\"https://processing.org\" class=\"hoverLink\" style=\"color:#42484F;\"><u>Processing</u></a>. This prototype randomly generates a number of quilts according to several base parameters. For as many generations as the user specified, the generator selects some number of \"best\" quilts from that generation according to user - specified fitness functions. Upon reaching the final generation, the user is able to sift through each of the generated quilts from that generation and view the RGB, Hexadecimal, and HSV values for each triangle in the quilt.",
+				"The second and current prototype generator for the project is a live editor written in JavaScript using <a href=\"https://p5js.org\" class=\"hoverLink\" style=\"color:#42484F;\"><u>p5.js</u></a>. This prototype allows the user to upload a text representation of a base quilt to begin editing or to define a quilt entirely in the text fields of the editor. The structure of the editor is built around the idea of user manipulation of the plaintext quilt data. Fabric colors for the quilt are declared before the main body of data and represented with single characters in order to introduce the concept of variables while doing so in a way that many experienced quilters may already be experienced with.",
+				"Live editor and Evolution-based generator programmed in part by Aidan Buffum."
+			]
+		},
+		{
+			"title": "Mario Level Generator and Quilt Renderer",
+			"coverImage": "assets/images/projects/marioquilts/standard_quilt_output.png",
+			"playLink": "",
+			"images": [
+				"assets/images/projects/marioquilts/17_level_output.jpg",
+				"assets/images/projects/marioquilts/17_quilt_output.png",
+				"assets/images/projects/marioquilts/13_level_output.jpg",
+				"assets/images/projects/marioquilts/13_quilt_output.png",
+				"assets/images/projects/marioquilts/07_level_output.jpg",
+				"assets/images/projects/marioquilts/07_quilt_output.png",
+				"assets/images/projects/marioquilts/06_level_output.jpg",
+				"assets/images/projects/marioquilts/06_quilt_output.png"
+			],
+			"skillTags": [
+				"Java",
+				"Traditional Crafts"
+			],
+			"gameTags": [
+
+			],
+			"otherTags": [
+				"Class Project",
+				"Team Project"
+			],
+			"authors": [
+				"Aidan Buffum",
+				"Hung Hong",
+				"Remy Kaldawy"
+			],
+			"description": [
+				"The Mario Level Generator and Quilt Renderer is separated into three distinct parts. The first part of the program uses a grammar - based system to generate random Mario Levels of a desired length. The second part runs a player agent through each of the generated levels to determine playability in terms of whether the level can be completed and how much of a challenge the platforming in the level presents. The final part of the program renders out any viable levels, as determined by the evaluator, in both the standard graphics of Super Mario World and as a semi-optimized quilting pattern.",
+				"Generator programmed primarily by Remy Kaldawy<br>Evaluator programmed primarily by Hung Hong<br>Renderer programmed primarily by Aidan Buffum",
+				"Made as the final project for the Artificial Intelligence for Interactive Media and Games course at Worcester Polytechnic Institute."
+			]
+		},
+		{
+			"title": "Reprogrammable Puzzle Box",
+			"coverImage": "assets/images/projects/puzzlebox/cover.png",
+			"playLink": "",
+			"images": [
+				"assets/images/projects/puzzlebox/frontView2.png",
+				"assets/images/projects/puzzlebox/openView1.png",
+				"assets/images/projects/puzzlebox/openView2.png"
+			],
+			"skillTags": [
+				"Solidworks",
+				"Arduino"
+			],
+			"gameTags": [
+
+			],
+			"otherTags": [
+				"Class Project",
+				"Team Project"
+			],
+			"authors": [
+				"Aidan Buffum",
+				"\"Sky Alsever"
+			],
+			"description": [
+				"The reprogrammable puzzle box is a proof of concept prototype tool for Worcester Polytechnic Institute's annual escape rooms.",
+				"The box is built to be solved after receiving a combination of keypad inputs and dial turns. Puzzles on the box are designed in multiple stages, the progress of which are displayed on four LEDs. Programmers can define how many stages(between 1 and 768) the box should send the user through before unlocking as well as which of the over 19, 000 possible combinations to require the user to solve for each stage. Programmers may also choose whether to randomize the combinations for each stage.",
+				"The box is designed to accept remote input to manually lock and unlock it. While programming and debugging the box, the non - numerical keys may be used to manually lock and unlock the box. These keys act as reset buttons during the administration of the escape room.",
+				"Cheat protection is built into the box such that resetting the box will reset progress but will not unlock the box.",
+				"Programmed and Constructed by Aidan Buffum<br>Designed by Aidan Buffum and Sky Alsever",
+				"Made as the final project for the course Novel Interfaces for Interactive Systems at Worcester Polytechnic Institute."
 			]
 		}
 	]
