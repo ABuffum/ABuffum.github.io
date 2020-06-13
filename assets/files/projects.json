@@ -10,11 +10,15 @@
 				"assets/images/games/umbra/screenshot 3.png",
 				"assets/images/games/umbra/screenshot 4.png"
 			],
+			"mediumTags": [
+				"Game",
+				"Digital"
+			],
 			"skillTags": [
 				"Perlenspiel",
 				"JavaScript"
 			],
-			"gameTags": [
+			"aspectTags": [
 				"Puzzle Game",
 				"2D"
 			],
@@ -48,11 +52,15 @@
 				"assets/images/games/contrastbounce/screenshot 3.png",
 				"assets/images/games/contrastbounce/screenshot 4.png"
 			],
+			"mediumTags": [
+				"Game",
+				"Digital"
+			],
 			"skillTags": [
 				"Perlenspiel",
 				"JavaScript"
 			],
-			"gameTags": [
+			"aspectTags": [
 				"Puzzle Game",
 				"2D"
 			],
@@ -85,12 +93,16 @@
 				"assets/images/games/idigit/Screenshot Winner.png",
 				"assets/images/games/idigit/WPIShowfest_Spring2019.png"
 			],
+			"mediumTags": [
+				"Game",
+				"Digital"
+			],
 			"skillTags": [
 				"Unity",
 				"C#",
 				"Blender"
 			],
-			"gameTags": [
+			"aspectTags": [
 				"Action Game",
 				"Multiplayer",
 				"3D"
@@ -123,11 +135,15 @@
 				"assets/images/games/wizardsvsrobots/Gameplay 5.png",
 				"assets/images/games/wizardsvsrobots/Gameplay 8.png"
 			],
+			"mediumTags": [
+				"Game",
+				"Digital"
+			],
 			"skillTags": [
 				"GameMaker Studio",
 				"Pixel Art"
 			],
-			"gameTags": [
+			"aspectTags": [
 				"Action Platformer",
 				"2D"
 			],
@@ -161,11 +177,15 @@
 				"assets/images/games/joe/screenshot-4.png",
 				"assets/images/games/joe/screenshot-2.png"
 			],
+			"mediumTags": [
+				"Game",
+				"Digital"
+			],
 			"skillTags": [
 				"GameMaker Studio",
 				"Pixel Art"
 			],
-			"gameTags": [
+			"aspectTags": [
 				"Role Playing Game",
 				"2D"
 			],
@@ -198,12 +218,16 @@
 				"assets/images/games/murderbeewrote/Gameplay3.png",
 				"assets/images/games/murderbeewrote/Gameplay4.png"
 			],
+			"mediumTags": [
+				"Game",
+				"Digital"
+			],
 			"skillTags": [
 				"Unity",
 				"C#",
 				"Photoshop"
 			],
-			"gameTags": [
+			"aspectTags": [
 				"Infinite Runner",
 				"2D"
 			],
@@ -239,12 +263,17 @@
 				"assets/images/games/roborace/playSession.png",
 				"assets/images/games/roborace/robotrace1.png"
 			],
+			"mediumTags": [
+				"Game",
+				"Tabletop",
+				"Analog"
+			],
 			"skillTags": [
 				"3D Printing",
 				"Photoshop",
 				"Paper Prototyping"
 			],
-			"gameTags": [
+			"aspectTags": [
 				"Strategy Game",
 				"Educational Game"
 			],
@@ -273,11 +302,16 @@
 				"assets/images/games/dollardomination/gamesforchange.png",
 				"assets/images/games/dollardomination/industries.png"
 			],
+			"mediumTags": [
+				"Game",
+				"Tabletop",
+				"Analog"
+			],
 			"skillTags": [
 				"Photoshop",
 				"Paper Prototyping"
 			],
-			"gameTags": [
+			"aspectTags": [
 				"Serious Game",
 				"Educational Game"
 			],
@@ -309,11 +343,16 @@
 				"assets/images/games/houseparty/playSession.png",
 				"assets/images/games/houseparty/playSession2.png"
 			],
+			"mediumTags": [
+				"Game",
+				"Tabletop",
+				"Analog"
+			],
 			"skillTags": [
 				"Photoshop",
 				"Paper Prototyping"
 			],
-			"gameTags": [
+			"aspectTags": [
 				"Cooperative Game"
 			],
 			"otherTags": [
@@ -348,12 +387,15 @@
 				"assets/images/projects/quiltgen/Cool10.png",
 				"assets/images/projects/quiltgen/Warm1000.png"
 			],
+			"mediumTags": [
+				"Digital"
+			],
 			"skillTags": [
 				"JavaScript",
 				"Java",
 				"Traditional Crafts"
 			],
-			"gameTags": [
+			"aspectTags": [
 				"Educational"
 			],
 			"otherTags": [
@@ -388,11 +430,14 @@
 				"assets/images/projects/marioquilts/06_level_output.jpg",
 				"assets/images/projects/marioquilts/06_quilt_output.png"
 			],
+			"mediumTags": [
+				"Digital"
+			],
 			"skillTags": [
 				"Java",
 				"Traditional Crafts"
 			],
-			"gameTags": [
+			"aspectTags": [
 
 			],
 			"otherTags": [
@@ -422,12 +467,15 @@
 				"assets/images/projects/puzzlebox/openView1.png",
 				"assets/images/projects/puzzlebox/openView2.png"
 			],
+			"mediumTags": [
+				"Analog"
+			],
 			"skillTags": [
 				"Solidworks",
 				"Arduino"
 			],
-			"gameTags": [
-
+			"aspectTags": [
+				"Puzzle"
 			],
 			"otherTags": [
 				"Class Project",
