@@ -84,6 +84,50 @@
 			]
 		},
 		{
+			"title": "Murder Bee Wrote",
+			"coverImage": "assets/images/games/murderbeewrote/titleSquare.png",
+			"playLink": "https://erikcerini.itch.io/murder-bee-wrote",
+			"images": [
+				"assets/images/games/murderbeewrote/Gameplay.png",
+				"assets/images/games/murderbeewrote/Gameplay2.png",
+				"assets/images/games/murderbeewrote/Gameplay3.png",
+				"assets/images/games/murderbeewrote/Gameplay4.png"
+			],
+			"mediumTags": [
+				"Game",
+				"Digital"
+			],
+			"skillTags": [
+				"Unity",
+				"C#",
+				"Photoshop"
+			],
+			"aspectTags": [
+				"Infinite Runner",
+				"2D"
+			],
+			"otherTags": [
+				"Game Jam",
+				"Team Project"
+			],
+			"hiddenTags": [
+				"Digital",
+				"Game"
+			],
+			"authors": [
+				"Aidan Bufum",
+				"Kate Olguin",
+				"Erik Cerini"
+			],
+			"description": [
+				"Murder Bee Wrote is an infinite platform running game where the player controls a murderer who has switched places with a bumblebee.",
+				"The player must sate their bloodlust by destroying the bees all around them. Punch bees! Javelin them with the stingers of their fallen! Kill as many bees as possible to earn the ultimate high score!",
+				"Murder Bee Wrote is available for download <a href=\"https://erikcerini.itch.io/murder-bee-wrote\" class=\"hoverLink\" style=\"color:#42484F;\"><u>here</u></a> on itch.io",
+				"Programming by Aidan Buffum and Erik Cerini<br>Art by Aidan Buffum and Kate Olguin<br>Audio by Kate Olguin",
+				"Made during the Magic Realism Jam 2016 hosted by the Game Development Club at Worcester Polytechnic Institute."
+			]
+		},
+		{
 			"title": "I Dig It",
 			"coverImage": "assets/images/games/idigit/cover.png",
 			"playLink": "https://aidanbuffum.itch.io/i-dig-it",
@@ -126,6 +170,133 @@
 			]
 		},
 		{
+			"title": "ExChange The World",
+			"coverImage": "assets/images/games/exchangetheworld/cover.png",
+			"playLink": "",
+			"images": [
+				"assets/images/games/exchangetheworld/Screenshot 1.png",
+				"assets/images/games/exchangetheworld/Screenshot 2.png",
+				"assets/images/games/exchangetheworld/Screenshot 3.png",
+				"assets/images/games/exchangetheworld/Screenshot 4.png"
+			],
+			"mediumTags": [
+				"Game",
+				"Digital"
+			],
+			"skillTags": [
+				"Unity",
+				"C#",
+				"Blender",
+				"Autodesk Maya"
+			],
+			"aspectTags": [
+				"Puzzle Game",
+				"Physics",
+				"3D"
+			],
+			"otherTags": [
+				"Class Project",
+				"Team Project"
+			],
+			"hiddenTags": [
+				"Digital",
+				"Game"
+			],
+			"authors": [
+				"Aidan Buffum",
+				"Kyle Trottier"
+			],
+			"description": [
+				"ExChange The World is a physics-based puzzle game must solve a variety of everyday problems by swapping the locations of objects in the world with a special gun.",
+				"Though some objects may only be swapped with others of the same kind, every object dynamically influences its surroundings when swapped.",
+				"Programming by Aidan Buffum<br>Art by Kyle Trottier and Aidan Buffum<br>Audio by Kyle Trottier",
+				"Made as the final project for the course Digital Game Design Studio at Worcester Polytechnic Institute."
+			]
+		},
+		{
+			"title": "Little Worlds",
+			"coverImage": "assets/images/games/littleworlds/cover.png",
+			"playLink": "https://aidanbuffum.itch.io/littleworlds",
+			"images": [
+				"assets/images/games/littleworlds/Screenshot 1.png",
+				"assets/images/games/littleworlds/Screenshot 2.png",
+				"assets/images/games/littleworlds/Screenshot 3.png"
+			],
+			"mediumTags": [
+				"Game",
+				"Digital"
+			],
+			"skillTags": [
+				"Unity",
+				"C#",
+				"Blender"
+			],
+			"aspectTags": [
+				"Party Game",
+				"Physics",
+				"Multiplayer",
+				"3D"
+			],
+			"otherTags": [
+				"Game jam",
+				"Solo Project"
+			],
+			"hiddenTags": [
+				"Digital",
+				"Game"
+			],
+			"authors": [
+				"Aidan Buffum"
+			],
+			"description": [
+				"Little Worlds is a competitive party game where 2-4 players race to build the largest celestial body they can. With <i>Katamari</i>-inspired rolling, players grow and shrink by pulling space rubble into to their planets and stealing moons from their opponents' orbits.",
+				"Little Worlds is available for download <a href=\"https://aidanbuffum.itch.io/littleworlds\" class=\"hoverLink\" style=\"color:#42484F;\"><u>here</u></a> on itch.io",
+				"Made during the Ludum Dare 38 Game Jam in April of 2017."
+			]
+		},
+		{
+			"title": "Joe",
+			"coverImage": "assets/images/games/joe/titleSquare.png",
+			"playLink": "https://aidanbuffum.itch.io/joe",
+			"images": [
+				"assets/images/games/joe/screenshot-1.png",
+				"assets/images/games/joe/screenshot-3.png",
+				"assets/images/games/joe/screenshot-4.png",
+				"assets/images/games/joe/screenshot-2.png"
+			],
+			"mediumTags": [
+				"Game",
+				"Digital"
+			],
+			"skillTags": [
+				"GameMaker Studio",
+				"Pixel Art"
+			],
+			"aspectTags": [
+				"Comedy",
+				"Role Playing Game",
+				"2D"
+			],
+			"otherTags": [
+				"Game Jam",
+				"Solo Project"
+			],
+			"hiddenTags": [
+				"Digital",
+				"Game"
+			],
+			"authors": [
+				"Aidan Bufum"
+			],
+			"description": [
+				"Joe is a short comedy role playing game with nothing out of the ordinary. You play as Joe A. Verage. Outside your dayjob as a barista, you're just an average joe. Everybody in town knows you. Your boss likes your hard work. You have a face.",
+				"Grab some coffee. Have some fun!",
+				"Joe is available for download <a href=\"https://aidanbuffum.itch.io/joe\" class=\"hoverLink\" style=\"color:#42484F;\"><u>here</u></a> on itch.io",
+				"Game playthrough takes approximately 15 minutes.",
+				"Made during the Cutthroat Game Jam 2017 hosted by the Game Development Club at Worcester Polytechnic Institute."
+			]
+		},
+		{
 			"title": "Wizards vs Robots",
 			"coverImage": "assets/images/games/wizardsvsrobots/titleSquare.png",
 			"playLink": "https://aidanbuffum.itch.io/wizards-vs-robots",
@@ -163,60 +334,17 @@
 			"description": [
 				"Wizards Vs Robots is an action platformer game where the player controls a powerful wizard and takes him down one of two unique paths for a different experience during each playthrough. The player can switch between 3 different spells, each with their own effects and advantages to fight the evil robot horde in the wizard's way.",
 				"Wizards vs Robots is available for download <a href=\"https://aidanbuffum.itch.io/wizards-vs-robots\" class=\"hoverLink\" style=\"color:#42484F;\"><u>here</u></a> on itch.io",
-				"Programming by Aidan Buffum and Matthew Kaminski<br>Cover Art by Aidan Buffum<br>Audio by William Lucca",
+				"Programming by Aidan Buffum and Matthew Kaminski<br>Art by Aidan Buffum<br>Audio by William Lucca",
 				"Made as the final project for the course The Game Development Process at Worcester Polytechnic Institute."
 			]
 		},
 		{
-			"title": "Joe",
-			"coverImage": "assets/images/games/joe/titleSquare.png",
-			"playLink": "https://aidanbuffum.itch.io/joe",
+			"title": "Take a Breather",
+			"coverImage": "assets/images/games/takeabreather/cover.png",
+			"playLink": "https://aidanbuffum.itch.io/take-a-breather",
 			"images": [
-				"assets/images/games/joe/screenshot-1.png",
-				"assets/images/games/joe/screenshot-3.png",
-				"assets/images/games/joe/screenshot-4.png",
-				"assets/images/games/joe/screenshot-2.png"
-			],
-			"mediumTags": [
-				"Game",
-				"Digital"
-			],
-			"skillTags": [
-				"GameMaker Studio",
-				"Pixel Art"
-			],
-			"aspectTags": [
-				"Role Playing Game",
-				"2D"
-			],
-			"otherTags": [
-				"Game Jam",
-				"Solo Project"
-			],
-			"hiddenTags": [
-				"Digital",
-				"Game"
-			],
-			"authors": [
-				"Aidan Bufum"
-			],
-			"description": [
-				"Joe is a short comedy role playing game with nothing out of the ordinary. You play as Joe A. Verage. Outside your dayjob as a barista, you're just an average joe. Everybody in town knows you. Your boss likes your hard work. You have a face.",
-				"Grab some coffee. Have some fun!",
-				"Joe is available for download <a href=\"https://aidanbuffum.itch.io/joe\" class=\"hoverLink\" style=\"color:#42484F;\"><u>here</u></a> on itch.io",
-				"Game playthrough takes approximately 15 minutes.",
-				"Made during the Cutthroat Game Jam 2017 hosted by the Game Development Club at Worcester Polytechnic Institute."
-			]
-		},
-		{
-			"title": "Murder Bee Wrote",
-			"coverImage": "assets/images/games/murderbeewrote/titleSquare.png",
-			"playLink": "https://erikcerini.itch.io/murder-bee-wrote",
-			"images": [
-				"assets/images/games/murderbeewrote/Gameplay.png",
-				"assets/images/games/murderbeewrote/Gameplay2.png",
-				"assets/images/games/murderbeewrote/Gameplay3.png",
-				"assets/images/games/murderbeewrote/Gameplay4.png"
+				"assets/images/games/littleworlds/takeabreather 1.png",
+				"assets/images/games/littleworlds/takeabreather 2.png"
 			],
 			"mediumTags": [
 				"Game",
@@ -225,31 +353,29 @@
 			"skillTags": [
 				"Unity",
 				"C#",
-				"Photoshop"
+				"Blender"
 			],
 			"aspectTags": [
-				"Infinite Runner",
-				"2D"
+				"Comedy",
+				"Puzzle Game",
+				"Physics",
+				"3D"
 			],
 			"otherTags": [
-				"Game Jam",
-				"Team Project"
+				"Game jam",
+				"Solo Project"
 			],
 			"hiddenTags": [
 				"Digital",
 				"Game"
 			],
 			"authors": [
-				"Aidan Bufum",
-				"Kate Olguin",
-				"Erik Cerini"
+				"Aidan Buffum"
 			],
 			"description": [
-				"Murder Bee Wrote is an infinite platform running game where the player controls a murderer who has switched places with a bumblebee.",
-				"The player must sate their bloodlust by destroying the bees all around them. Punch bees! Javelin them with the stingers of their fallen! Kill as many bees as possible to earn the ultimate high score!",
-				"Murder Bee Wrote is available for download <a href=\"https://erikcerini.itch.io/murder-bee-wrote\" class=\"hoverLink\" style=\"color:#42484F;\"><u>here</u></a> on itch.io",
-				"Programming by Aidan Buffum and Erik Cerini<br>Art by Aidan Buffum and Kate Olguin<br>Audio by Kate Olguin",
-				"Made during the Magic Realism Jam 2016 hosted by the Game Development Club at Worcester Polytechnic Institute."
+				"Take a Breather is a slapstick puzzle game in which the player controls escaped animals from the aquarium traversing New York City to get back to the ocean. With <i>QWOP</i>-style gameplay, players control various bones of each animal independently. Players must be careful however. As a true fish out of water, they will have to seek out puddles and other source of hydration to stop and Take a Breather.",
+				"An early build of Take a Breather is available for download <a href=\"https://aidanbuffum.itch.io/take-a-breather\" class=\"hoverLink\" style=\"color:#42484F;\"><u>here</u></a> on itch.io",
+				"Made during the Take a Breather Game Jam 2018 hosted by the Game Development Club at Worcester Polytechnic Institute."
 			]
 		}
 	],
