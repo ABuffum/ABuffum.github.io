@@ -343,8 +343,8 @@
 			"coverImage": "assets/images/games/takeabreather/cover.png",
 			"playLink": "https://aidanbuffum.itch.io/take-a-breather",
 			"images": [
-				"assets/images/games/littleworlds/takeabreather 1.png",
-				"assets/images/games/littleworlds/takeabreather 2.png"
+				"assets/images/games/takeabreather/Screenshot 1.png",
+				"assets/images/games/takeabreather/Screenshot 2.png"
 			],
 			"mediumTags": [
 				"Game",
@@ -532,9 +532,7 @@
 			"hiddenTags": [
 				"Other"
 			],
-			"authors": [
-				"As part of the <a href=\"http://www.code-crafter.com/wp/\" style=\"color:#42484F;\">Code Crafters</a> project"
-			],
+			"authors": "As part of the <a href=\"http://www.code-crafter.com/wp/\" style=\"color:#42484F;\">Code Crafters</a> project",
 			"description": [
 				"The Code Crafters project aims to use the generation of quilts as a vehicle to teach computer science to users who are familiar with traditional crafts but not programming. To fulfill that goal, workshops are to be run with software that generates quilt designs based on half-square triangles. Participants will learn how the program works and how to modify the generator / generated quilts to fit their visions.",
 				"The first prototype generator for the project was an evolution-based generator written in Java using <a href=\"https://processing.org\" class=\"hoverLink\" style=\"color:#42484F;\"><u>Processing</u></a>. This prototype randomly generates a number of quilts according to several base parameters. For as many generations as the user specified, the generator selects some number of \"best\" quilts from that generation according to user - specified fitness functions. Upon reaching the final generation, the user is able to sift through each of the generated quilts from that generation and view the RGB, Hexadecimal, and HSV values for each triangle in the quilt.",
