@@ -207,7 +207,7 @@
 				"Kyle Trottier"
 			],
 			"description": [
-				"ExChange The World is a physics-based puzzle game must solve a variety of everyday problems by swapping the locations of objects in the world with a special gun.",
+				"ExChange The World is a physics-based puzzle game in which the player must solve a variety of everyday problems by swapping the locations of objects in the world with a special gun.",
 				"Though some objects may only be swapped with others of the same kind, every object dynamically influences its surroundings when swapped.",
 				"Programming by Aidan Buffum<br>Art by Kyle Trottier and Aidan Buffum<br>Audio by Kyle Trottier",
 				"Made as the final project for the course Digital Game Design Studio at Worcester Polytechnic Institute."
@@ -249,7 +249,7 @@
 				"Aidan Buffum"
 			],
 			"description": [
-				"Little Worlds is a competitive party game where 2-4 players race to build the largest celestial body they can. With <i>Katamari</i>-inspired rolling, players grow and shrink by pulling space rubble into to their planets and stealing moons from their opponents' orbits.",
+				"Little Worlds is a competitive party game where 2-4 players race to build the largest celestial body they can. With <i>Katamari</i>-inspired rolling, players grow and shrink by pulling space rubble into their planets and stealing moons from their opponents' orbits.",
 				"Little Worlds is available for download <a href=\"https://aidanbuffum.itch.io/littleworlds\" class=\"hoverLink\" style=\"color:#42484F;\"><u>here</u></a> on itch.io",
 				"Made during the Ludum Dare 38 Game Jam in April of 2017."
 			]
@@ -357,7 +357,6 @@
 			],
 			"aspectTags": [
 				"Comedy",
-				"Puzzle Game",
 				"Physics",
 				"3D"
 			],
@@ -373,7 +372,7 @@
 				"Aidan Buffum"
 			],
 			"description": [
-				"Take a Breather is a slapstick puzzle game in which the player controls escaped animals from the aquarium traversing New York City to get back to the ocean. With <i>QWOP</i>-style gameplay, players control various bones of each animal independently. Players must be careful however. As a true fish out of water, they will have to seek out puddles and other source of hydration to stop and Take a Breather.",
+				"Take a Breather is a slapstick puzzle game in which the player controls escaped animals from the aquarium traversing New York City to get back to the ocean. With <i>QWOP</i>-style gameplay, players control each bone of various animal independently. Players must be careful however and as a true fish out of water, they will have to seek out puddles and other source of hydration to stop and Take a Breather.",
 				"An early build of Take a Breather is available for download <a href=\"https://aidanbuffum.itch.io/take-a-breather\" class=\"hoverLink\" style=\"color:#42484F;\"><u>here</u></a> on itch.io",
 				"Made during the Take a Breather Game Jam 2018 hosted by the Game Development Club at Worcester Polytechnic Institute."
 			]
