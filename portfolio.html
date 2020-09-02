@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" style="height:100%">
+<head>
+	<title>Aidan Buffum - Tabletop Games</title>
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+	<script src="include.js"></script>
+	<script src="populate.js"></script>
+</head>
+
+<body onresize="windowResized()">
+	<div id="header"></div>
+	<div id="content">
+		<div id="contentBody">
+			<div class="filter" style="width:100%; height:40px; display:inline-block">
+			</div>
+			<div class="splitBox" id="Projects" style="column-count:4;">
+				<!-- Content will be populated here -->
+
+
+				<script id="populate">loadProjects(['videogames', 'boardgames', 'other']);</script>
+				<script>windowResized()</script>
+				<script>filter()</script>
+			</div>
+		</div>
+	</div>
+	<div id="footer"></div>
+	<script id="getHeaderFooter" src="hf.js"></script>
+</body>
+</html>

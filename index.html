@@ -1,227 +1,152 @@
-<!DOCTYPE html>
-<html style="height:100%;">
+﻿<!DOCTYPE html>
+
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>Aidan Buffum</title>
-	<link rel="stylesheet"
-		  type="text/css"
-		  href="styles.css" />
-	<script src="scripts.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css"/>
+	<script src="include.js"> </script>
 </head>
 
 <body>
-
-	<!--Background Grey Block -->
-	<div style="position:fixed; background:#DCE2E9; left:10%; right:10%; height:100%;"></div>
-
-	<!-- Site Body -->
-	<div id="container" style="height:auto;">
-		<!-- Header -->
-		<div class="header" style="padding:0px; z-index: 1;display:block;position:relative;top:0px;">
-			<!-- Grey Area -->
-			<div style="left:0; width:100%; height:40px; background-color:#42484F;">
-				<!-- Content Area -->
-				<div style="position:absolute; left:10%; right:10%; height:40px; background-color:#393E44;">
-
-				</div>
-			</div>
-			<!-- Green Area -->
-			<div style="left:0; width:100%; height:120px; background-color:#38C098;">
-				<!-- Content Area -->
-				<div style="position:absolute; left:10%; right:10%; height:120px; background-color:#288F70; font-size:0">
-					<div class="NAME" style="position:absolute; top:20px; left:10px;">
-						<a href="index.html" style="text-decoration:none; color:#FFFFFF;">Aidan Buffum</a>
-					</div>
-					<div class="SUBNAME" style="position:absolute;top:70px;left:190px;">Game Programmer/Designer</div>
-					<div class="NAV" style="position:absolute; top:30px; bottom:30px; right:10px;z-index:2;">
-						<a href="index.html" onmouseover="toggleWorkOff()">About</a><!---->
-						<a class="dropbtn" onmouseover="toggleWorkOn()" style="border-left: 1px solid #FFFFFF;">Work</a><!---->
-					</div>
-					<!-- Work Dropdown -->
-					<div id="workToggle" style="position:absolute; top:10px; right:-5px; z-index:1; height:260px; width:200px;" onmouseover="toggleWorkOff()"></div>
-					<div class="dropdown-content" id="workDropdown" style="position:absolute; top:81px; right:10px;">
-						<a href="videogames.html">Digital Games</a>
-						<a href="boardgames.html">Tabletop Games</a>
-						<a href="otherwork.html">Other Work</a>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<!-- Body -->
-		<div id="body" style="padding-left:10%; padding-right:10%;">
-			<!-- Content Area -->
-			<div style="padding:15px;background:#DCE2E9;">
-				<!-- Stuff that's unique to the page goes here -->
-				<div>
-					<a name="about" style="color:#42484F;font-size:24px;">About</a>
-					<div class="greyContainer">
-						<div class="splitBody" style="width:99%;background-color:#42484F;border-radius:7px;">
+	<div id="header"></div>
+	<div id="content">
+		<div id="contentBody">
+			<div class="splitBox" style="column-count:2">
+				<div class="greyContainer">
+					<div class="splitBody" style="width:100%">
+						<a name="about" class="sectionTitle">About</a>
+						<div id="about" class="splitBody" style="width:98%;background-color:#42484F;border-radius:7px;">
 							<div id="portrait" class="splitBody" style="float:left;width:37%;padding:0.5%;">
 								<img src="assets/images/portrait/photoEvidence.png" style="float:left;width:48%;margin:1%;border-radius:50%;">
 								<img src="assets/images/portrait/drawnportrait2018.png" style="float:left;width:48%;margin:1%;border-radius:50%;background-color:#00EDC1;">
-								<div id="OtherInfo" style="width:100%;text-align:center;color:white;">
-								</div>
 							</div>
-							<div id="selfDescription" class="splitBody" style="width:60%;height:100%;background-color:white;border-radius:7px;padding:0.5%;margin:0.5%;color:#42484F;">
+							<div id="selfDescription" class="splitBody" style="width:60%;height:100%;background-color:white;border-radius:7px;padding:0.5%;margin:0.5%;color:#42484F;font-size: 20px;">
 								Hi, I'm Aidan Buffum!
-								<p>
-									I am a game programmer and designer and I am currently
-									pursuing a double major at Worcester Polytechnic Institute in
-									Computer Science and Game Design.
-								</p>
-								<p>
-									Please reach out to me at aabuffum@gmail.com
-								</p>
+								<p />
+								I am an interactive media programmer and designer
 							</div>
 						</div>
-					</div>
-					<p></p>
-					<div class="splitBox" style="column-count:2">
-						<div class="greyContainer">
-							<div class="splitBody" style="width:100%">
-								<a name="languages" style="color:#42484F;font-size:24px;">Languages</a>
-								<div id="languages" class="splitBody" style="width:98%;background-color:#42484F;border-radius:7px;">
-									<div style="column-count:5">
-									
-									
-									
-										<img title="C#" src="assets/images/icons/logo_csharp_white.png" class="skillImage" style="margin:8%; width:80%">
-										<img title="JavaScript" src="assets/images/icons/logo_javascript_white.png" class="skillImage" style="margin:8%; width:80%">
-										
-										<img title="Java" src="assets/images/icons/logo_java_white.png" class="skillImage" style="margin:8%; width:80%">
-										<img title="HTML" src="assets/images/icons/logo_html5_white.png" class="skillImage" style="margin:8%; width:80%">
-										
-										<img title="C" src="assets/images/icons/logo_c_white.png" class="skillImage" style="margin:8%; width:80%">
-										<img title="Python" src="assets/images/icons/logo_python_white.png" class="skillImage" style="margin:8%; width:80%">
-										
-										<img title="C++" src="assets/images/icons/logo_cplusplus_white.png" class="skillImage" style="margin:8%; width:80%">
-										<img title="SQL" src="assets/images/icons/logo_sql_white.png" class="skillImage" style="margin:8%; width:80%">
-										
-										<img title="Scala" src="assets/images/icons/logo_scala_white.png" class="skillImage" style="margin:8%; width:80%">
-										<img title="Arduino" src="assets/images/icons/logo_arduino_white.png" class="skillImage" style="margin:8%; width:80%">
-										
-										
-										
-									</div>
+						<p />
+						<a name="languages" class="sectionTitle">Programming Languages</a>
+						<div id="languages" class="splitBody" style="width:98%;background-color:#42484F;border-radius:7px;">
+							<div style="column-count:5; column-fill:balance">
+								<div class="skillImageBG" style="background-color:#1E9E25">
+									<img title="C#" alt="C#" src="assets/images/icons/logo_csharp_white.png" class="skillImage">
 								</div>
-								<a name="skills" style="color:#42484F;font-size:24px;">Skills</a>
-								<div id="skills" class="splitBody" style="width:98%;background-color:#42484F;border-radius:7px;">
-									<div style="column-count:5">
-										<img title="Windows" src="assets/images/icons/logo_windows_white.png" class="skillImage" style="margin:8%; width:80%">
-										<img title="SOLIDWORKS" src="assets/images/icons/logo_solidworks_white.png" class="skillImage" style="margin:8%; width:80%">
-										
-										<img title="Microsoft Office" src="assets/images/icons/logo_microsoftoffice_white.png" class="skillImage" style="margin:8%; width:80%">
-										<img title="Adobe Photoshop" src="assets/images/icons/logo_photoshop_white.png" class="skillImage" style="margin:8%; width:80%">
-										
-										<img title="AWS" src="assets/images/icons/logo_aws_white.png" class="skillImage" style="margin:8%; width:80%">
-										<img title="Blender" src="assets/images/icons/logo_blender_white.png" class="skillImage" style="margin:8%; width:80%">
-										
-										<img title="Github" src="assets/images/icons/logo_github_white.png" class="skillImage" style="margin:8%; width:80%">
-										<img title="GameMaker Studio 1 & 2" src="assets/images/icons/logo_gamemakerstudio2_white.png" class="skillImage" style="margin:8%; width:80%">
-										
-										<img title="Unity" src="assets/images/icons/logo_unity_white.png" class="skillImage" style="margin:8%; width:80%">
-										<img title="Unreal Engine" src="assets/images/icons/logo_unrealengine_white.png" class="skillImage" style="margin:8%; width:80%">
-									</div>
+								<div class="skillImageBG" style="background-color:white">
+									<img title="Scala" alt="Scala" src="assets/images/icons/logo_scala.png" class="skillImage">
 								</div>
-							</div>
-						</div>
-						<div class="greyContainer">
-							<div class="splitBody" style="width:100%">
-								<a name="resume" style="color:#42484F;font-size:24px;">Resume</a>
-								<div id="resume" class="splitBody" style="width:98%;background-color:#42484F;border-radius:7px;">
-									<a href="assets/files/resume.pdf" style="width:15%;margin-right:15px">
-										<img src="assets/images/icons/icon_pdf_white.png"
-											 class="linkImage"
-											 style="margin-left:2.5%;">
-									</a>
-									<a href="assets/files/resume.pdf"
-									   class="hoverLink" style="font-size:20px;line-height:50px;">
-										Resume PDF
-									</a>
-								</div>
-								<p></p>
-								<a name="contact" style="color:#42484F;font-size:24px;">Contact </a>
-								<div id="contact_email" class="splitBody" style="width:98%;background-color:#42484F;border-radius:7px;">
-									<a href="mailto:aabuffum@gmail.com" style="width:15%;margin-right:15px">
-										<img src="assets/images/icons/icon_email_white.png"
-											 class="linkImage"
-											 style="margin-left:2.5%;">
-									</a>
-									<a href="mailto:aabuffum@gmail.com"
-									   class="hoverLink" style="font-size:20px;line-height:50px;">
-										aabuffum@gmail.com
-									</a>
-								</div>
-								<p></p>
-								<div id="contact_itchio" class="splitBody" style="width:98%;background-color:#42484F;border-radius:7px;">
-									<a href="https://aidanbuffum.itch.io/" style="width:15%;margin-right:15px">
-										<img src="assets/images/icons/logo_itchio_white.png"
-											 class="linkImage"
-											 style="margin-left:2.5%;">
-									</a>
-									<a href="https://aidanbuffum.itch.io/"
-									   class="hoverLink" style="font-size:20px;line-height:50px">
-										Aidan Buffum
-									</a>
-								</div>
-								<p></p>
-								<div id="contact_linkedin" class="splitBody" style="width:98%;background-color:#42484F;border-radius:7px;">
-									<a href="https://www.linkedin.com/in/aidan-buffum/" style="width:15%;margin-right:15px">
-										<img src="assets/images/icons/logo_linkedin_white.png"
-											 class="linkImage"
-											 style="margin-left:2.5%;">
-									</a>
-									<a href="https://www.linkedin.com/in/aidan-buffum/"
-									   class="hoverLink" style="font-size:20px;line-height:50px;">
-										Aidan Buffum
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Adding this makes sure the footer doesn't overlap the page's content -->
-		<div style="width:100%;height:0px;background-color:white;float:left">
-			<p style="color:#FFFFFF;">.</p>
-			<p style="color:#FFFFFF;">.</p>
-			<p style="color:#FFFFFF;">.</p>
-			<p style="color:#FFFFFF;">.</p>
-		</div>
-		<!-- Footer -->
-		<div id="footer">
-			<!-- Social Media -->
-			<div style="width:100%; height:40px; background-color:#38C098;">
-				<!-- Content Area -->
-				<div style="position:absolute; left:10%; right:10%; height:40px; background-color:#288F70;">
-					<div style="position:absolute; float:left; height:20px; left:50%; top:10px; margin-left:-20px;">
-						<!-- Icons -->
-						<a href="https://aidanbuffum.itch.io/" class="icons">
-							<img src="assets/images/icons/logo_itchio_white.png" alt="itch.io" style="width: 20px;height:20px;">
-						</a>
-						<a href="https://www.linkedin.com/in/aidan-buffum/" class="icons">
-							<img src="assets/images/icons/logo_linkedin_white.png" alt="LinkedIn" style="width: 20px;height:20px;">
-						</a>
-					</div>
-				</div>
-			</div>
-			<!-- Copyright -->
-			<div style="left:0; width:100%; height:30px; background-color:#42484F;">
-				<!-- Content Area -->
-				<div style="position:absolute; left:10%; right:10%; height:30px; background-color:#393E44;">
-					<p> <div style="margin-top:-10px; text-align:center; color:white; font-size:75%;">Copyright &copy 2019 Aidan Buffum.</div></p>
-				</div>
-			</div>
-		</div>
 
+								<div class="skillImageBG" style="background-color:white">
+									<img title="Java" alt="Java" src="assets/images/icons/logo_java.png" class="skillImage">
+								</div>
+								<div class="skillImageBG" style="background-color:white">
+									<img title="HTML" alt="HTML" src="assets/images/icons/logo_html5.png" class="skillImage">
+								</div>
+								
+								<div class="skillImageBG" style="background-color:#00589C">
+									<img title="C++" alt="C++" src="assets/images/icons/logo_cplusplus_white_lettering.png" class="skillImage">
+								</div>
+								<div class="skillImageBG" style="background-color:white">
+									<img title="Python" alt="Python" src="assets/images/icons/logo_python.png" class="skillImage">
+								</div>
+
+								<div class="skillImageBG" style="background-color:#3949AB">
+									<img title="C" alt="C" src="assets/images/icons/logo_c_white.png" class="skillImage">
+								</div>
+								<div class="skillImageBG" style="background-color:#0274B3">
+									<img title="SQL" alt="SQL" src="assets/images/icons/logo_sql_white.png" class="skillImage">
+								</div>
+
+								<div class="skillImageBG" style="background-color:#F0DB4F">
+									<img title="JavaScript" alt="JavaScript" src="assets/images/icons/logo_javascript_letters.png" class="skillImage">
+								</div>
+								<div class="skillImageBG" style="background-color:white">
+									<img title="Arduino" alt="Arduino" src="assets/images/icons/logo_arduino.png" class="skillImage">
+								</div>
+
+							</div>
+						</div>
+						<a name="skills" class="sectionTitle">Skills</a>
+						<div id="skills" class="splitBody" style="width:98%;background-color:#42484F;border-radius:7px;">
+							<div style="column-count:5">
+								
+								<div class="skillImageBG" style="background-color:white">
+									<img title="Unity" alt="Unity Engine" src="assets/images/icons/logo_unity_black.png" class="skillImage">
+								</div>
+								<div class="skillImageBG" style="background-color:black">
+									<img title="Unreal Engine" alt="Unreal Engine" src="assets/images/icons/logo_unrealengine_white.png" class="skillImage">
+								</div>
+
+								<div class="skillImageBG" style="background-color:#01A7E3; padding:16%">
+									<img title="Windows" alt="Windows" src="assets/images/icons/logo_windows_white.png" class="skillImage">
+								</div>
+								<div class="skillImageBG" style="background-color:white">
+									<img title="SOLIDWORKS" alt="SOLIDWORKS" src="assets/images/icons/logo_solidworks.png" class="skillImage">
+								</div>
+
+								<div class="skillImageBG" style="background-color:#EB3C00">
+									<img title="Microsoft Office" alt="Microsoft Office" src="assets/images/icons/logo_microsoftoffice_white.png" class="skillImage">
+								</div>
+								<div class="skillImageBG" style="background-color:#090057; padding:16%">
+									<img title="Adobe Photoshop" alt="Adobe Photoshop" src="assets/images/icons/logo_photoshop_lined.png" class="skillImage">
+								</div>
+
+								<div class="skillImageBG" style="background-color:#232F3E">
+									<img title="AWS" alt="AWS" src="assets/images/icons/logo_aws.png" class="skillImage">
+								</div>
+								<div class="skillImageBG" style="background-color:white">
+									<img title="Blender" alt="Blender" src="assets/images/icons/logo_blender.png" class="skillImage">
+								</div>
+
+								<div class="skillImageBG" style="background-color:#F05033">
+									<img title="Git" alt="Git" src="assets/images/icons/logo_git_white.png" class="skillImage">
+								</div>
+								<div class="skillImageBG" style="background-color:black">
+									<img title="GameMaker Studio" alt="GameMaker Studio" src="assets/images/icons/logo_gamemakerstudio2_white.png" class="skillImage">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="splitBody" style="width:100%">
+					<a name="education" class="sectionTitle">Education</a>
+					<div id="education" class="splitBody" style="width:98%;background-color:#42484F;border-radius:7px;">
+						<img src="assets/images/icons/logo_WPI_seal.png" style="float:left; height:60px; margin:1.25%;">
+						<div style="font-size:20px; color:white">
+							<u>Worcester Polytechnic Institute</u> - May 2020<br/>
+							Bachelor Of Science: Computer Science & Interactive Media and Game Design
+						</div>
+					</div>
+					<p />
+					<a name="contact" class="sectionTitle">Contact </a>
+					<div id="contact_email" class="splitBody" style="width:98%;background-color:#42484F;border-radius:7px;">
+						<a href="mailto:aabuffum@gmail.com" style="width:15%;margin-right:15px">
+							<img src="assets/images/icons/icon_email_white.png" class="linkImage">
+						</a>
+						<a href="mailto:aabuffum@gmail.com" class="hoverLink" style="font-size: 20px; line-height: 50px;"> aabuffum@gmail.com </a>
+					</div>
+					<p />
+					<div id="contact_itchio" class="splitBody" style="width:98%;background-color:#42484F;border-radius:7px;">
+						<a href="https://aidanbuffum.itch.io/" style="width:15%;margin-right:15px">
+							<img src="assets/images/icons/logo_itchio_white.png" class="linkImage">
+						</a>
+						<a href="https://aidanbuffum.itch.io/" class="hoverLink" style="font-size: 20px; line-height: 50px;"> Aidan Buffum </a>
+					</div>
+					<p />
+					<div id="contact_linkedin" class="splitBody" style="width:98%;background-color:#42484F;border-radius:7px;">
+						<a href="https://www.linkedin.com/in/aidan-buffum/" style="width:15%;margin-right:15px">
+							<img src="assets/images/icons/logo_linkedin_white.png" class="linkImage">
+						</a>
+						<a href="https://www.linkedin.com/in/aidan-buffum/" class="hoverLink" style="font-size: 20px; line-height: 50px;"> Aidan Buffum </a>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-
+	<div id="footer"></div>
+	<script>
+		document.getElementById("header").innerHTML = header;
+		document.getElementById("footer").innerHTML = footer;
+	</script>
 </body>
-
 </html>
-
-
-
-
