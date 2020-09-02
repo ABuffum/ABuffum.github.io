@@ -34,7 +34,7 @@ p {
 	width: 100%;
 }
 
-#content {
+#content, .content {
 	min-height: 100%;
 	height: auto;
 	padding-bottom: 90px;
@@ -45,7 +45,7 @@ p {
 	background: #DCE2E9;
 }
 
-#contentBody {
+#contentBody, .contentBody {
 	padding: 15px;
 }
 
