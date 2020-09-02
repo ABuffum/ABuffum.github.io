@@ -79,7 +79,7 @@
 			"description": [
 				"Contrast Bounce is an abstract puzzle game where the player inverts the colors of the map to fire a ball at the goal.",
 				"Contrast Bounce is played only with the space bar and the mouse.",
-				"Contrast Bounce is available to play <a href=\"assets/gamefiles/constrastbounce/cover.html\" class=\"hoverLink\" style=\"color:#42484F;\"><u>here</u></a> in browser.",
+				"Contrast Bounce is available to play <a href=\"assets/gamefiles/contrastbounce/cover.html\" class=\"hoverLink\" style=\"color:#42484F;\"><u>here</u></a> in browser.",
 				"Programming by Aidan Buffum and William Hartman<br>Cover Art by Aidan Buffum",
 				"Made as a project for the course Digital Game Design I at Worcester Polytechnic Institute."
 			]
